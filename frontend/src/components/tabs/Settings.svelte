@@ -15,8 +15,8 @@
   // Get metadata for display
   $: metadata = $waveStore
     ? {
-        EOT: msToTimestamp($waveStore.getDuration() * 1000, ".", true),
-        CUR: msToTimestamp($currentPlaybackTime * 1000, ".", true),
+        EOT: msToTimestamp($waveStore.getDuration() * 1000),
+        CUR: msToTimestamp($currentPlaybackTime * 1000),
         SPD: $waveStore.getPlaybackRate() + "x",
         SEG: "5", // Replace with actual segment count if available
       }
@@ -238,14 +238,14 @@
       {#if $waveStore}
         <div>
           <b>End Time:</b>
-          {msToTimestamp($waveStore.getDuration() * 1000, ".", true)}
+          {metadata.EOT}
         </div>
         <div>
           <b>Current Time:</b>
-          {msToTimestamp($currentPlaybackTime * 1000, ".", true)}
+          {metadata.CUR}
         </div>
-        <div><b>Speed:</b> {$waveStore.getPlaybackRate()}x</div>
-        <div><b>Segments:</b> 5</div>
+        <div><b>Speed:</b> {metadata.SPD}</div>
+        <div><b>Segments:</b> {metadata.SEG}</div>
       {/if}
     </div>
   </div>

@@ -33,18 +33,13 @@ function msToTimestamp(
   trimMs: boolean = false,
 ): string {
   const hours = Math.floor(ms / 3_600_000);
-  ms -= hours * 3_600_000;
-
-  const minutes = Math.floor(ms / 60_000);
-  ms -= minutes * 60_000;
-
-  const seconds = Math.floor(ms / 1_000);
-  ms -= seconds * 1_000;
-  ms = trimMs ? parseFloat(ms.toFixed(0)) : ms;
+  const minutes = Math.floor((ms % 3_600_000) / 60_000);
+  const seconds = Math.floor((ms % 60_000) / 1_000);
+  const milliseconds = Math.floor(ms % 1000);
 
   return `${stringPad(hours)}:${stringPad(minutes)}:${stringPad(
     seconds,
-  )}${decimal_marker}${stringPad(ms, 3)}`;
+  )}${decimal_marker}${stringPad(milliseconds, 3)}`;
 }
 
 function stringPad(n: number, padding: number = 2): string {

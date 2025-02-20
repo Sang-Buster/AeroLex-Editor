@@ -36,7 +36,7 @@ try {
   }
   const sampletranscriptdata = await response.json();
   rawTranscriptDataStore.set(sanitizeContent(sampletranscriptdata));
-  
+
   [strack, ttrack] = subTitleTrackFromSegmentData(
     get(rawTranscriptDataStore) as TranscribedData[],
   );
