@@ -1,4 +1,4 @@
-import { writable, get, type Writable } from "svelte/store";
+import { writable, get } from "svelte/store";
 import {
   subTitleTrackFromSegmentData,
   segmentToNodeData,
@@ -7,9 +7,47 @@ import {
   SubtitleNode,
 } from "./utils";
 import type { TranscribedData } from "./types";
-import sampletranscriptdata from "./assets/wscribe_editor_into.json";
 import { nanoid } from "nanoid";
 
+// Initialize all stores first
+const errListStore = createErrorStore();
+const rawTranscriptDataStore = writable({});
+const currentPlaybackTime = writable(0);
+const wordLevelData = writable(true);
+const scoreView = writable(false);
+const waveStore = writable(null);
+const mediaStoreURL = writable("/audio/demo.mp3");
+const isPlayable = writable(false);
+const fileInfo = writable({
+  mediaFileName: null,
+  transcriptFileName: null,
+});
+
+// Declare track variables
+let subtitleTrackStore = createSubtitleTrackStore(new SubtitleTrack());
+let transcriptTrackStore = createSubtitleTrackStore(new SubtitleTrack());
+let strack: SubtitleTrack, ttrack: SubtitleTrack;
+
+// Load initial data
+try {
+  const response = await fetch("/text/demo.json");
+  if (!response.ok) {
+    throw new Error(`HTTP error! status: ${response.status}`);
+  }
+  const sampletranscriptdata = await response.json();
+  rawTranscriptDataStore.set(sanitizeContent(sampletranscriptdata));
+  
+  [strack, ttrack] = subTitleTrackFromSegmentData(
+    get(rawTranscriptDataStore) as TranscribedData[],
+  );
+  subtitleTrackStore = createSubtitleTrackStore(strack);
+  transcriptTrackStore = createSubtitleTrackStore(ttrack);
+} catch (e) {
+  console.error("Failed to load transcript data:", e);
+  errListStore.addToList(e.message);
+}
+
+// Store creation functions
 function createErrorStore() {
   const { subscribe, set, update } = writable([]);
 
@@ -126,34 +164,7 @@ const resetNodeNextPrev = (
   }
 };
 
-const rawTranscriptDataStore = writable({});
-rawTranscriptDataStore.set(sanitizeContent(sampletranscriptdata));
-
-const errListStore = createErrorStore();
-const currentPlaybackTime = writable(0);
-const wordLevelData = writable(true);
-const scoreView = writable(false);
-let subtitleTrackStore: ReturnType<typeof createSubtitleTrackStore>;
-let transcriptTrackStore: ReturnType<typeof createSubtitleTrackStore>;
-let strack: SubtitleTrack, ttrack: SubtitleTrack;
-try {
-  [strack, ttrack] = subTitleTrackFromSegmentData(
-    get(rawTranscriptDataStore) as TranscribedData[],
-  );
-  subtitleTrackStore = createSubtitleTrackStore(strack);
-  transcriptTrackStore = createSubtitleTrackStore(ttrack);
-} catch (e) {
-  console.error(e);
-  errListStore.addToList(e.message);
-}
-const waveStore = writable(null);
-const mediaStoreURL = writable("/wscribe_editor_intro.mp3");
-const isPlayable = writable(false);
-const fileInfo = writable({
-  mediaFileName: null,
-  transcriptFileName: null,
-});
-
+// Exports
 export {
   errListStore,
   subtitleTrackStore,

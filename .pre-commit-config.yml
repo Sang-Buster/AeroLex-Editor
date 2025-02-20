@@ -1,0 +1,22 @@
+repos:
+- repo: https://github.com/astral-sh/ruff-pre-commit
+  rev: 'v0.9.3'
+  hooks:
+    - id: ruff
+      args: [--fix]
+    - id: ruff-format
+      files: ^backend/
+
+- repo: local
+  hooks:
+    - id: commit-msg-template
+      name: Check commit message format
+      entry: python .pre-commit_msg_template.py
+      language: python
+      stages: [commit-msg]
+    - id: frontend-lint
+      name: Frontend lint
+      entry: bash -c 'cd frontend && pnpm run lint && pnpm run format'
+      language: system
+      files: ^frontend/
+      pass_filenames: false
