@@ -19,6 +19,7 @@
   function handleSpaceKeyPress(event: any) {
     if (event.key === " ") {
       if (!isContentEditable(event.target)) {
+        event.preventDefault();
         $waveStore.playPause();
       }
     }
@@ -66,8 +67,9 @@
     transform-origin: left top;
     position: absolute;
     top: 0;
-    left: 60px; /* Match the width of the container */
-    height: 60px; /* This becomes the width after rotation */
+    left: 0;
+    height: 60px;
+    width: 100%; /* Make sure it fills the container */
     margin: 0;
   }
 </style>

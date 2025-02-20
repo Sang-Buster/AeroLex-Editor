@@ -102,12 +102,20 @@
   {/if}
   <div
     bind:this={card}
+    role="button"
+    tabindex="0"
     class={clsx(
-      "mb-2 flex mx-4 rounded-lg shadow-lg bg-gray-100",
+      "mb-2 flex rounded-lg shadow-lg bg-gray-100",
       currentlyPlaying && "playing",
     )}
     on:click={() => {
       jumpToTimestamp(node.data.start);
+    }}
+    on:keydown={(e) => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        jumpToTimestamp(node.data.start);
+      }
     }}
   >
     <!-- segment info -->
@@ -182,9 +190,17 @@
     <!-- edit buttons -->
     <div class="flex flex-col justify-center">
       <div
+        role="button"
+        tabindex="0"
         class="p-4 hover:bg-black hover:text-white rounded-full cursor-pointer"
         on:click|stopPropagation={() =>
           currentTrack.toggleEditModeForSegment(node)}
+        on:keydown|stopPropagation={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            currentTrack.toggleEditModeForSegment(node);
+          }
+        }}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -202,8 +218,16 @@
         </svg>
       </div>
       <div
+        role="button"
+        tabindex="0"
         class="p-4 hover:bg-black hover:text-white rounded-full cursor-pointer"
         on:click|stopPropagation={() => currentTrack.removeSegment(node)}
+        on:keydown|stopPropagation={(e) => {
+          if (e.key === "Enter" || e.key === " ") {
+            e.preventDefault();
+            currentTrack.removeSegment(node);
+          }
+        }}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"

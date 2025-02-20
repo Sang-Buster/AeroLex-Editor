@@ -33,6 +33,7 @@
     "vitest": "^0.33.0"
   },
   "dependencies": {
+    "caniuse-lite": "^1.0.30001700",
     "wavesurfer.js": "^7.1.2"
   }
 }

@@ -218,6 +218,7 @@
 <style>
   input[type="range"] {
     -webkit-appearance: none;
+    appearance: none;
     background: transparent;
   }
 
