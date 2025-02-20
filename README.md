@@ -88,6 +88,7 @@ nvm install node
 nvm use node
 
 # Install dependencies
+cd frontend
 npm install
 ```
 
@@ -125,6 +126,7 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 
 3. **Install dependencies:**
 ```bash
+cd backend
 uv pip install -r requirements.txt
 ```
 
