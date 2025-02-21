@@ -6,14 +6,26 @@
     currentPlaybackTime,
     subtitleTrackStore,
     transcriptTrackStore,
+    rawTranscriptDataStore,
+    isPlayable,
   } from "../../store";
-  import { msToTimestamp, newSessionMetadata } from "../../utils";
+  import {
+    msToTimestamp,
+    trackToList,
+    exportStuff,
+    fileParseFn,
+    sanitizeContent,
+    subTitleTrackFromSegmentData,
+  } from "../../utils";
   import type { SubtitleNode } from "../../utils";
+  import WaveSurfer from "wavesurfer.js";
 
   export let toggleTranscriptView;
   export let toggleScoreView;
   export let transcriptView;
   export let scoreView;
+
+  let exportFormat = "JSON";
 
   // Helper function to convert iterator to array
   function iteratorToArray<T>(iterator: Iterator<T>): T[] {
@@ -63,7 +75,36 @@
       }
     : {};
 
-  function handleMediaSelect(event: any) {
+  const initWaveForm = () => {
+    if ($waveStore) {
+      $waveStore.destroy();
+    }
+
+    waveStore.set(
+      WaveSurfer.create({
+        container: document.querySelector("#waveform") as HTMLElement,
+        waveColor: "#78716c",
+        progressColor: "#5ea2fb",
+        fillParent: true,
+        url: $mediaStoreURL,
+        interact: false,
+        barWidth: 2,
+        barGap: 1,
+        barAlign: "top",
+        barRadius: 2,
+      }),
+    );
+
+    $waveStore.setVolume(1);
+    $waveStore.on("timeupdate", (currentTime: number) => {
+      currentPlaybackTime.set(currentTime);
+    });
+    $waveStore.on("ready", () => {
+      isPlayable.set(true);
+    });
+  };
+
+  async function handleMediaSelect(event: any) {
     const selectedMedia = event.target.files[0];
     if (selectedMedia) {
       let fileURL = URL.createObjectURL(selectedMedia);
@@ -72,22 +113,71 @@
         mediaFileName: selectedMedia.name,
       }));
       mediaStoreURL.set(fileURL);
+      initWaveForm();
     }
   }
 
-  function handleTranscriptSelect(event: any) {
+  async function handleTranscriptSelect(event: any) {
     const file = event.target.files[0];
-    if (file) {
-      // Add your transcript handling logic here
+    if (!file) return;
+
+    try {
+      const content = await file.text();
+      const parser = fileParseFn(file.name.toLowerCase());
+      const parsedData = parser(content);
+
+      // Update transcript data and filename
+      const sanitizedData = sanitizeContent(parsedData);
+
+      // Update the raw transcript data store first
+      rawTranscriptDataStore.set(sanitizedData);
+
+      // Then update the tracks
+      const [strack, ttrack] = subTitleTrackFromSegmentData(sanitizedData);
+      subtitleTrackStore.set(strack);
+      transcriptTrackStore.set(ttrack);
+
+      // Update filename last
       fileInfo.update((e) => ({
         ...e,
         transcriptFileName: file.name,
       }));
+    } catch (error) {
+      console.error("Failed to load transcript:", error);
+      alert(`Failed to load transcript: ${error.message}`);
+
+      // Reset to default transcript
+      try {
+        const response = await fetch("/text/log.json");
+        if (!response.ok)
+          throw new Error(`HTTP error! status: ${response.status}`);
+        const defaultData = await response.json();
+        const sanitizedData = sanitizeContent(defaultData);
+
+        // Update stores in the same order
+        rawTranscriptDataStore.set(sanitizedData);
+
+        const [strack, ttrack] = subTitleTrackFromSegmentData(sanitizedData);
+        subtitleTrackStore.set(strack);
+        transcriptTrackStore.set(ttrack);
+
+        fileInfo.update((e) => ({
+          ...e,
+          transcriptFileName: "log.json",
+        }));
+      } catch (e) {
+        console.error("Failed to load default transcript:", e);
+        alert("Failed to load default transcript");
+      }
     }
   }
 
-  function handleExport() {
-    // Add your export logic here
+  function handleExport(isTranscript: boolean = false) {
+    const currentTrack = isTranscript
+      ? $transcriptTrackStore
+      : $subtitleTrackStore;
+    const data = trackToList(currentTrack);
+    exportStuff(exportFormat, data, isTranscript);
   }
 </script>
 
@@ -115,18 +205,17 @@
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            ><path
+          >
+            <path
               fill="currentColor"
               d="M10.75 18.692q.816 0 1.379-.563q.563-.564.563-1.379v-3.98h2.731v-1.54h-3.5v4.087q-.236-.257-.53-.383q-.293-.126-.643-.126q-.815 0-1.379.563q-.563.564-.563 1.379t.563 1.379q.564.563 1.379.563M6.616 21q-.691 0-1.153-.462T5 19.385V4.615q0-.69.463-1.152T6.616 3H14.5L19 7.5v11.885q0 .69-.462 1.153T17.384 21zM14 8V4H6.616q-.231 0-.424.192T6 4.615v14.77q0 .23.192.423t.423.192h10.77q.23 0 .423-.192t.192-.424V8zM6 4v4zv16z"
-            /></svg
-          >
+            />
+          </svg>
           Load Audio
         </label>
-        {#if $fileInfo.mediaFileName}
-          <div class="text-sm text-gray-600 text-center">
-            {$fileInfo.mediaFileName}
-          </div>
-        {/if}
+        <div class="text-sm text-gray-600 text-center">
+          {$fileInfo.mediaFileName}
+        </div>
       </div>
 
       <!-- Load Transcript -->
@@ -147,17 +236,17 @@
             width="24"
             height="24"
             viewBox="0 0 24 24"
-            ><path
+          >
+            <path
               fill="currentColor"
               d="M8.5 11.5v-1h7v1zm0-4v-1h7v1zm-2.5 7h7.5q.61 0 1.12.265q.509.264.876.743L18 18.758V4.616q0-.27-.173-.443T17.385 4H6.615q-.269 0-.442.173T6 4.616zm.616 5.5h11.069l-2.975-3.883q-.227-.296-.536-.457q-.308-.16-.674-.16H6v3.885q0 .269.173.442t.443.173m10.769 1H6.615q-.69 0-1.152-.462T5 19.385V4.615q0-.69.463-1.152T6.616 3h10.769q.69 0 1.153.463T19 4.616v14.769q0 .69-.462 1.153T17.384 21M6 20V4zm0-4.5v-1z"
-            /></svg
-          > Load Transcript
+            />
+          </svg>
+          Load Transcript
         </label>
-        {#if $fileInfo.transcriptFileName}
-          <div class="text-sm text-gray-600 text-center">
-            {$fileInfo.transcriptFileName}
-          </div>
-        {/if}
+        <div class="text-sm text-gray-600 text-center">
+          {$fileInfo.transcriptFileName}
+        </div>
       </div>
     </div>
   </div>
@@ -166,39 +255,35 @@
   <div class="flex flex-col gap-4">
     <h2 class="text-lg font-semibold text-center">Media Export</h2>
     <div class="grid grid-cols-2 gap-3 max-w-lg mx-auto">
+      <!-- Export Audio button -->
       <button
         class="flex items-center justify-center gap-2 px-4 py-2 bg-white rounded-md border border-gray-300 hover:bg-gray-50"
-        on:click={handleExport}
+        on:click={() => handleExport(false)}
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="24"
           height="24"
           viewBox="0 0 24 24"
-          ><path
+        >
+          <path
             fill="currentColor"
             d="m12 15.577l-3.539-3.538l.708-.72L11.5 13.65V5h1v8.65l2.33-2.33l.709.719zM6.616 19q-.691 0-1.153-.462T5 17.384v-2.423h1v2.423q0 .231.192.424t.423.192h10.77q.23 0 .423-.192t.192-.424v-2.423h1v2.423q0 .691-.462 1.153T17.384 19z"
-          /></svg
-        >
-        Export Audio
+          />
+        </svg>
+        Export {transcriptView ? "Transcript" : "Subtitles"}
       </button>
 
-      <button
-        class="flex items-center justify-center gap-2 px-4 py-2 bg-white rounded-md border border-gray-300 hover:bg-gray-50"
-        on:click={handleExport}
+      <!-- Export Format Selector -->
+      <select
+        class="px-4 py-2 bg-white rounded-md border border-gray-300 cursor-pointer"
+        bind:value={exportFormat}
       >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          ><path
-            fill="currentColor"
-            d="m12 15.577l-3.539-3.538l.708-.72L11.5 13.65V5h1v8.65l2.33-2.33l.709.719zM6.616 19q-.691 0-1.153-.462T5 17.384v-2.423h1v2.423q0 .231.192.424t.423.192h10.77q.23 0 .423-.192t.192-.424v-2.423h1v2.423q0 .691-.462 1.153T17.384 19z"
-          /></svg
-        >
-        Export Transcript
-      </button>
+        <option value="VTT">VTT Format</option>
+        <option value="SRT">SRT Format</option>
+        <option value="JSON">JSON Format</option>
+        <option value="PLAINTEXT">Plain Text</option>
+      </select>
     </div>
   </div>
 

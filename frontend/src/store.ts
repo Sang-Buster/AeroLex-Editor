@@ -19,8 +19,8 @@ const waveStore = writable(null);
 const mediaStoreURL = writable("/audio/log.mp3");
 const isPlayable = writable(false);
 const fileInfo = writable({
-  mediaFileName: null,
-  transcriptFileName: null,
+  mediaFileName: "log.mp3",
+  transcriptFileName: "log.json",
 });
 
 // Declare track variables
