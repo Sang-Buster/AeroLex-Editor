@@ -24,4 +24,24 @@ dist-ssr
 *.sw?
 data
 
-**backend/
+
+# Python
+**__pycache__**
+**.ruff_cache**
+
+# Data
+*.lbs
+*.mp3
+*.mp4
+*.wav
+*.m4a
+*.aac
+*.flac
+*.ogg
+*.m4b
+*.m4p
+*.m4b
+*.m4p
+*.json
+*.srt
+*.vtt

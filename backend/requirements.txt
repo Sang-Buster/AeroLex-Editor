@@ -1,0 +1,9 @@
+click
+faster-whisper
+soundfile
+numpy
+structlog
+torch
+huggingface_hub
+rich
+prompt_toolkit

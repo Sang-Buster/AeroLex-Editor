@@ -1,7 +1,7 @@
 <div align="center">
    <a href="https://github.com/Sang-Buster/AeroLex-Editor">
       <img src="/frontend/public/favicon.png" width=20% alt="logo">
-   </a>   
+   </a>
    <h1>AeroLex Editor</h1>
    <h6><small>A powerful web-based editor for transcription and subtitle files with real-time audio/video sync capabilities</small></h6>
    <p><b>#Air Traffic Control Communication &emsp; #Automatic Speech Recognition &emsp; #Aviation &emsp; #NLP &emsp; #LLM &emsp; #Whisper &emsp; #Ollama </b></p>
@@ -11,7 +11,7 @@
 
 <a href="https://github.com/Sang-Buster/AeroLex-Editor">
   <img src="/README.assets/web.png" width=100% alt="webui">
-</a>   
+</a>
 
 ## 🔍 Table of Contents
 
@@ -130,7 +130,24 @@ cd backend
 uv pip install -r requirements.txt
 ```
 
-4. **Code Linting & Formatting:**
+4. **Install `ruff` and `pre-commit`:**
+  ```bash
+  uv pip install ruff pre-commit
+  ```
+   - `pre-commit` helps maintain code quality by running automated checks before commits are made.
+   - `ruff` is a modern Python code formatter and linter.
+
+1. **Install git hooks:**
+   ```bash
+   pre-commit install --hook-type commit-msg --hook-type pre-commit --hook-type pre-push
+   ```
+
+   These hooks perform different checks at various stages:
+   - `commit-msg`: Ensures commit messages follow the conventional format
+   - `pre-commit`: Runs Ruff linting and formatting checks before each commit
+   - `pre-push`: Performs final validation before pushing to remote
+
+2. **Code Linting & Formatting:**
 ```bash
 # Linting
 ruff check              # Run ruff linter
