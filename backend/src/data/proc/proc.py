@@ -71,6 +71,4 @@ def process_transcription(file_path, output_path):
 
 
 # Process the transcription files
-# process_transcription("dca_llm.lbs", "dca_proc.lbs")
-# process_transcription("dfw_llm.lbs", "dfw_proc.lbs")
-process_transcription("log_id_llm.lbs", "log_id_proc.lbs")
+process_transcription("log_id.lbs", "log_id_proc.lbs")

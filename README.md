@@ -137,7 +137,7 @@ uv pip install -r requirements.txt
    - `pre-commit` helps maintain code quality by running automated checks before commits are made.
    - `ruff` is a modern Python code formatter and linter.
 
-1. **Install git hooks:**
+5. **Install git hooks:**
    ```bash
    pre-commit install --hook-type commit-msg --hook-type pre-commit --hook-type pre-push
    ```
@@ -147,7 +147,7 @@ uv pip install -r requirements.txt
    - `pre-commit`: Runs Ruff linting and formatting checks before each commit
    - `pre-push`: Performs final validation before pushing to remote
 
-2. **Code Linting & Formatting:**
+6. **Code Linting & Formatting:**
 ```bash
 # Linting
 ruff check              # Run ruff linter

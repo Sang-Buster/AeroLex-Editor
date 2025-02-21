@@ -1,7 +1,6 @@
 import os
 
 import click
-
 from src.commands.models import models
 from src.commands.shell import shell
 from src.commands.transcribe import transcribe

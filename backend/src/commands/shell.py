@@ -355,7 +355,15 @@ def shell(ctx):
                     # Get the appropriate models subcommand
                     cmd = models.get_command(ctx, subcommand)
                     if cmd:
-                        ctx.invoke(cmd, *args)
+                        # Pass the first argument as model_name for download/delete/update/fetch commands
+                        if subcommand in ["download", "delete", "fetch"]:
+                            if args:
+                                ctx.invoke(cmd, model_name=args[0])
+                            else:
+                                console.print("[red]Error: Model name required[/red]")
+                        else:
+                            # For other commands (like list), just invoke without args
+                            ctx.invoke(cmd)
                     else:
                         console.print(
                             "[red]Invalid models subcommand. Type 'help' for available commands.[/red]"

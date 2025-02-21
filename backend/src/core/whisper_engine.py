@@ -2,8 +2,9 @@
 from typing import List
 
 import numpy as np
-from backend.core.models import TranscribedData
 from faster_whisper import WhisperModel
+
+from backend.core.models import TranscribedData
 
 
 class WhisperEngine:  # Renamed from FasterWhisperBackend for clarity

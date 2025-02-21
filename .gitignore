@@ -45,3 +45,4 @@ data
 *.json
 *.srt
 *.vtt
+backend/src/data/proc/log.json
