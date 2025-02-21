@@ -1,0 +1,953 @@
+{
+  "segments": [
+    {
+      "start": 0.0,
+      "end": 3.7,
+      "text": " So, after a great first date, typically there would be three stages.",
+      "words": [
+        {
+          "start": 0.0,
+          "end": 0.52,
+          "word": " So,",
+          "score": 0.87
+        },
+        {
+          "start": 0.72,
+          "end": 0.92,
+          "word": " after",
+          "score": 0.99
+        },
+        {
+          "start": 0.92,
+          "end": 1.12,
+          "word": " a",
+          "score": 0.95
+        },
+        {
+          "start": 1.12,
+          "end": 1.42,
+          "word": " great",
+          "score": 0.99
+        },
+        {
+          "start": 1.42,
+          "end": 1.68,
+          "word": " first",
+          "score": 0.98
+        },
+        {
+          "start": 1.68,
+          "end": 1.98,
+          "word": " date,",
+          "score": 0.99
+        },
+        {
+          "start": 2.14,
+          "end": 2.48,
+          "word": " typically",
+          "score": 0.93
+        },
+        {
+          "start": 2.48,
+          "end": 2.68,
+          "word": " there",
+          "score": 0.85
+        },
+        {
+          "start": 2.68,
+          "end": 2.8,
+          "word": " would",
+          "score": 0.65
+        },
+        {
+          "start": 2.8,
+          "end": 2.98,
+          "word": " be",
+          "score": 0.99
+        },
+        {
+          "start": 2.98,
+          "end": 3.22,
+          "word": " three",
+          "score": 0.72
+        },
+        {
+          "start": 3.22,
+          "end": 3.7,
+          "word": " stages.",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "start": 3.94,
+      "end": 9.48,
+      "text": " One is the talking stage, second is the intentional courtship or relationship stage",
+      "words": [
+        {
+          "start": 3.94,
+          "end": 4.1,
+          "word": " One",
+          "score": 0.97
+        },
+        {
+          "start": 4.1,
+          "end": 4.24,
+          "word": " is",
+          "score": 0.99
+        },
+        {
+          "start": 4.24,
+          "end": 4.4,
+          "word": " the",
+          "score": 0.95
+        },
+        {
+          "start": 4.4,
+          "end": 4.66,
+          "word": " talking",
+          "score": 0.93
+        },
+        {
+          "start": 4.66,
+          "end": 5.18,
+          "word": " stage,",
+          "score": 0.99
+        },
+        {
+          "start": 5.62,
+          "end": 5.88,
+          "word": " second",
+          "score": 0.87
+        },
+        {
+          "start": 5.88,
+          "end": 6.26,
+          "word": " is",
+          "score": 0.99
+        },
+        {
+          "start": 6.26,
+          "end": 6.78,
+          "word": " the",
+          "score": 0.98
+        },
+        {
+          "start": 6.78,
+          "end": 7.58,
+          "word": " intentional",
+          "score": 0.95
+        },
+        {
+          "start": 7.58,
+          "end": 8.3,
+          "word": " courtship",
+          "score": 0.96
+        },
+        {
+          "start": 8.3,
+          "end": 8.48,
+          "word": " or",
+          "score": 0.96
+        },
+        {
+          "start": 8.48,
+          "end": 8.98,
+          "word": " relationship",
+          "score": 0.96
+        },
+        {
+          "start": 8.98,
+          "end": 9.48,
+          "word": " stage",
+          "score": 0.99
+        }
+      ]
+    },
+    {
+      "start": 9.48,
+      "end": 11.52,
+      "text": " and the third is the engagement stage.",
+      "words": [
+        {
+          "start": 9.48,
+          "end": 9.98,
+          "word": " and",
+          "score": 0.58
+        },
+        {
+          "start": 9.98,
+          "end": 10.12,
+          "word": " the",
+          "score": 0.95
+        },
+        {
+          "start": 10.12,
+          "end": 10.26,
+          "word": " third",
+          "score": 0.99
+        },
+        {
+          "start": 10.26,
+          "end": 10.54,
+          "word": " is",
+          "score": 0.98
+        },
+        {
+          "start": 10.54,
+          "end": 10.72,
+          "word": " the",
+          "score": 0.87
+        },
+        {
+          "start": 10.72,
+          "end": 11.02,
+          "word": " engagement",
+          "score": 0.98
+        },
+        {
+          "start": 11.02,
+          "end": 11.52,
+          "word": " stage.",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "start": 11.86,
+      "end": 13.74,
+      "text": " So why do we need to go through these stages?",
+      "words": [
+        {
+          "start": 11.86,
+          "end": 11.98,
+          "word": " So",
+          "score": 0.91
+        },
+        {
+          "start": 11.98,
+          "end": 12.18,
+          "word": " why",
+          "score": 0.33
+        },
+        {
+          "start": 12.18,
+          "end": 12.3,
+          "word": " do",
+          "score": 0.99
+        },
+        {
+          "start": 12.3,
+          "end": 12.44,
+          "word": " we",
+          "score": 0.99
+        },
+        {
+          "start": 12.44,
+          "end": 12.62,
+          "word": " need",
+          "score": 1.0
+        },
+        {
+          "start": 12.62,
+          "end": 12.78,
+          "word": " to",
+          "score": 1.0
+        },
+        {
+          "start": 12.78,
+          "end": 12.94,
+          "word": " go",
+          "score": 1.0
+        },
+        {
+          "start": 12.94,
+          "end": 13.16,
+          "word": " through",
+          "score": 0.99
+        },
+        {
+          "start": 13.16,
+          "end": 13.36,
+          "word": " these",
+          "score": 0.94
+        },
+        {
+          "start": 13.36,
+          "end": 13.74,
+          "word": " stages?",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "start": 14.54,
+      "end": 15.84,
+      "text": " Is there a purpose for this?",
+      "words": [
+        {
+          "start": 14.54,
+          "end": 14.76,
+          "word": " Is",
+          "score": 0.99
+        },
+        {
+          "start": 14.76,
+          "end": 14.9,
+          "word": " there",
+          "score": 0.99
+        },
+        {
+          "start": 14.9,
+          "end": 15.06,
+          "word": " a",
+          "score": 0.99
+        },
+        {
+          "start": 15.06,
+          "end": 15.34,
+          "word": " purpose",
+          "score": 1.0
+        },
+        {
+          "start": 15.34,
+          "end": 15.56,
+          "word": " for",
+          "score": 0.99
+        },
+        {
+          "start": 15.56,
+          "end": 15.84,
+          "word": " this?",
+          "score": 0.98
+        }
+      ]
+    },
+    {
+      "start": 16.6,
+      "end": 21.14,
+      "text": " The answer is that you gradually draw near to each other.",
+      "words": [
+        {
+          "start": 16.6,
+          "end": 17.12,
+          "word": " The",
+          "score": 0.75
+        },
+        {
+          "start": 17.12,
+          "end": 17.4,
+          "word": " answer",
+          "score": 1.0
+        },
+        {
+          "start": 17.4,
+          "end": 17.64,
+          "word": " is",
+          "score": 1.0
+        },
+        {
+          "start": 17.64,
+          "end": 17.98,
+          "word": " that",
+          "score": 0.97
+        },
+        {
+          "start": 17.98,
+          "end": 19.38,
+          "word": " you",
+          "score": 0.76
+        },
+        {
+          "start": 19.38,
+          "end": 20.0,
+          "word": " gradually",
+          "score": 1.0
+        },
+        {
+          "start": 20.0,
+          "end": 20.26,
+          "word": " draw",
+          "score": 0.93
+        },
+        {
+          "start": 20.26,
+          "end": 20.52,
+          "word": " near",
+          "score": 0.98
+        },
+        {
+          "start": 20.52,
+          "end": 20.68,
+          "word": " to",
+          "score": 0.99
+        },
+        {
+          "start": 20.68,
+          "end": 20.88,
+          "word": " each",
+          "score": 1.0
+        },
+        {
+          "start": 20.88,
+          "end": 21.14,
+          "word": " other.",
+          "score": 0.99
+        }
+      ]
+    },
+    {
+      "start": 21.6,
+      "end": 23.7,
+      "text": " You don't suddenly just attach yourself to someone.",
+      "words": [
+        {
+          "start": 21.6,
+          "end": 21.72,
+          "word": " You",
+          "score": 0.99
+        },
+        {
+          "start": 21.72,
+          "end": 21.88,
+          "word": " don't",
+          "score": 0.96
+        },
+        {
+          "start": 21.88,
+          "end": 22.28,
+          "word": " suddenly",
+          "score": 0.98
+        },
+        {
+          "start": 22.28,
+          "end": 22.52,
+          "word": " just",
+          "score": 0.87
+        },
+        {
+          "start": 22.52,
+          "end": 22.88,
+          "word": " attach",
+          "score": 0.99
+        },
+        {
+          "start": 22.88,
+          "end": 23.2,
+          "word": " yourself",
+          "score": 0.99
+        },
+        {
+          "start": 23.2,
+          "end": 23.38,
+          "word": " to",
+          "score": 0.99
+        },
+        {
+          "start": 23.38,
+          "end": 23.7,
+          "word": " someone.",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "start": 24.14,
+      "end": 29.6,
+      "text": " As you gradually draw near to each other, there is a natural building up of your relationship,",
+      "words": [
+        {
+          "start": 24.14,
+          "end": 24.38,
+          "word": " As",
+          "score": 0.99
+        },
+        {
+          "start": 24.38,
+          "end": 24.54,
+          "word": " you",
+          "score": 1.0
+        },
+        {
+          "start": 24.54,
+          "end": 24.96,
+          "word": " gradually",
+          "score": 0.99
+        },
+        {
+          "start": 24.96,
+          "end": 25.28,
+          "word": " draw",
+          "score": 0.99
+        },
+        {
+          "start": 25.28,
+          "end": 25.54,
+          "word": " near",
+          "score": 0.97
+        },
+        {
+          "start": 25.54,
+          "end": 25.74,
+          "word": " to",
+          "score": 1.0
+        },
+        {
+          "start": 25.74,
+          "end": 25.92,
+          "word": " each",
+          "score": 1.0
+        },
+        {
+          "start": 25.92,
+          "end": 26.34,
+          "word": " other,",
+          "score": 1.0
+        },
+        {
+          "start": 26.66,
+          "end": 27.14,
+          "word": " there",
+          "score": 0.98
+        },
+        {
+          "start": 27.14,
+          "end": 27.22,
+          "word": " is",
+          "score": 0.53
+        },
+        {
+          "start": 27.22,
+          "end": 27.38,
+          "word": " a",
+          "score": 0.98
+        },
+        {
+          "start": 27.38,
+          "end": 27.8,
+          "word": " natural",
+          "score": 1.0
+        },
+        {
+          "start": 27.8,
+          "end": 28.36,
+          "word": " building",
+          "score": 0.99
+        },
+        {
+          "start": 28.36,
+          "end": 28.62,
+          "word": " up",
+          "score": 0.91
+        },
+        {
+          "start": 28.62,
+          "end": 28.84,
+          "word": " of",
+          "score": 0.99
+        },
+        {
+          "start": 28.84,
+          "end": 29.04,
+          "word": " your",
+          "score": 0.99
+        },
+        {
+          "start": 29.04,
+          "end": 29.6,
+          "word": " relationship,",
+          "score": 0.99
+        }
+      ]
+    },
+    {
+      "start": 29.6,
+      "end": 34.38,
+      "text": " of intimacy, of your growth in the knowledge of each other.",
+      "words": [
+        {
+          "start": 29.6,
+          "end": 29.82,
+          "word": " of",
+          "score": 0.68
+        },
+        {
+          "start": 29.82,
+          "end": 30.42,
+          "word": " intimacy,",
+          "score": 1.0
+        },
+        {
+          "start": 31.24,
+          "end": 31.56,
+          "word": " of",
+          "score": 0.98
+        },
+        {
+          "start": 31.56,
+          "end": 32.56,
+          "word": " your",
+          "score": 0.89
+        },
+        {
+          "start": 32.56,
+          "end": 33.06,
+          "word": " growth",
+          "score": 1.0
+        },
+        {
+          "start": 33.06,
+          "end": 33.24,
+          "word": " in",
+          "score": 0.96
+        },
+        {
+          "start": 33.24,
+          "end": 33.38,
+          "word": " the",
+          "score": 0.96
+        },
+        {
+          "start": 33.38,
+          "end": 33.64,
+          "word": " knowledge",
+          "score": 1.0
+        },
+        {
+          "start": 33.64,
+          "end": 33.84,
+          "word": " of",
+          "score": 0.99
+        },
+        {
+          "start": 33.84,
+          "end": 34.04,
+          "word": " each",
+          "score": 1.0
+        },
+        {
+          "start": 34.04,
+          "end": 34.38,
+          "word": " other.",
+          "score": 0.99
+        }
+      ]
+    },
+    {
+      "start": 34.98,
+      "end": 37.04,
+      "text": " And that really helps with your discernment.",
+      "words": [
+        {
+          "start": 34.98,
+          "end": 35.16,
+          "word": " And",
+          "score": 0.95
+        },
+        {
+          "start": 35.16,
+          "end": 35.4,
+          "word": " that",
+          "score": 0.99
+        },
+        {
+          "start": 35.4,
+          "end": 35.64,
+          "word": " really",
+          "score": 1.0
+        },
+        {
+          "start": 35.64,
+          "end": 35.94,
+          "word": " helps",
+          "score": 0.99
+        },
+        {
+          "start": 35.94,
+          "end": 36.12,
+          "word": " with",
+          "score": 0.81
+        },
+        {
+          "start": 36.12,
+          "end": 36.22,
+          "word": " your",
+          "score": 0.99
+        },
+        {
+          "start": 36.22,
+          "end": 37.04,
+          "word": " discernment.",
+          "score": 0.97
+        }
+      ]
+    },
+    {
+      "start": 37.4,
+      "end": 42.24,
+      "text": " We've often found that when you skip a stage, things break up very easily",
+      "words": [
+        {
+          "start": 37.4,
+          "end": 37.56,
+          "word": " We've",
+          "score": 0.41
+        },
+        {
+          "start": 37.56,
+          "end": 37.98,
+          "word": " often",
+          "score": 0.72
+        },
+        {
+          "start": 37.98,
+          "end": 38.28,
+          "word": " found",
+          "score": 1.0
+        },
+        {
+          "start": 38.28,
+          "end": 38.46,
+          "word": " that",
+          "score": 0.96
+        },
+        {
+          "start": 38.46,
+          "end": 38.58,
+          "word": " when",
+          "score": 0.97
+        },
+        {
+          "start": 38.58,
+          "end": 38.8,
+          "word": " you",
+          "score": 0.98
+        },
+        {
+          "start": 38.8,
+          "end": 39.06,
+          "word": " skip",
+          "score": 0.99
+        },
+        {
+          "start": 39.06,
+          "end": 39.28,
+          "word": " a",
+          "score": 0.99
+        },
+        {
+          "start": 39.28,
+          "end": 39.74,
+          "word": " stage,",
+          "score": 1.0
+        },
+        {
+          "start": 40.3,
+          "end": 40.88,
+          "word": " things",
+          "score": 0.99
+        },
+        {
+          "start": 40.88,
+          "end": 41.38,
+          "word": " break",
+          "score": 0.99
+        },
+        {
+          "start": 41.38,
+          "end": 41.64,
+          "word": " up",
+          "score": 0.99
+        },
+        {
+          "start": 41.64,
+          "end": 41.88,
+          "word": " very",
+          "score": 0.99
+        },
+        {
+          "start": 41.88,
+          "end": 42.24,
+          "word": " easily",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "start": 42.24,
+      "end": 46.74,
+      "text": " or you suddenly find yourself breaking up with someone that you don't even know very well.",
+      "words": [
+        {
+          "start": 42.24,
+          "end": 42.42,
+          "word": " or",
+          "score": 0.52
+        },
+        {
+          "start": 42.42,
+          "end": 42.56,
+          "word": " you",
+          "score": 0.97
+        },
+        {
+          "start": 42.56,
+          "end": 42.86,
+          "word": " suddenly",
+          "score": 0.99
+        },
+        {
+          "start": 42.86,
+          "end": 43.08,
+          "word": " find",
+          "score": 1.0
+        },
+        {
+          "start": 43.08,
+          "end": 43.54,
+          "word": " yourself",
+          "score": 0.99
+        },
+        {
+          "start": 43.54,
+          "end": 44.4,
+          "word": " breaking",
+          "score": 0.64
+        },
+        {
+          "start": 44.4,
+          "end": 45.08,
+          "word": " up",
+          "score": 0.99
+        },
+        {
+          "start": 45.08,
+          "end": 45.22,
+          "word": " with",
+          "score": 0.99
+        },
+        {
+          "start": 45.22,
+          "end": 45.42,
+          "word": " someone",
+          "score": 0.99
+        },
+        {
+          "start": 45.42,
+          "end": 45.56,
+          "word": " that",
+          "score": 0.77
+        },
+        {
+          "start": 45.56,
+          "end": 45.66,
+          "word": " you",
+          "score": 1.0
+        },
+        {
+          "start": 45.66,
+          "end": 45.84,
+          "word": " don't",
+          "score": 0.98
+        },
+        {
+          "start": 45.84,
+          "end": 46.02,
+          "word": " even",
+          "score": 0.95
+        },
+        {
+          "start": 46.02,
+          "end": 46.18,
+          "word": " know",
+          "score": 1.0
+        },
+        {
+          "start": 46.18,
+          "end": 46.42,
+          "word": " very",
+          "score": 0.98
+        },
+        {
+          "start": 46.42,
+          "end": 46.74,
+          "word": " well.",
+          "score": 1.0
+        }
+      ]
+    },
+    {
+      "start": 47.28,
+      "end": 49.88,
+      "text": " So it's good to take it one step at a time.",
+      "words": [
+        {
+          "start": 47.28,
+          "end": 47.56,
+          "word": " So",
+          "score": 0.98
+        },
+        {
+          "start": 47.56,
+          "end": 47.94,
+          "word": " it's",
+          "score": 0.83
+        },
+        {
+          "start": 47.94,
+          "end": 48.08,
+          "word": " good",
+          "score": 1.0
+        },
+        {
+          "start": 48.08,
+          "end": 48.3,
+          "word": " to",
+          "score": 1.0
+        },
+        {
+          "start": 48.3,
+          "end": 48.58,
+          "word": " take",
+          "score": 1.0
+        },
+        {
+          "start": 48.58,
+          "end": 48.8,
+          "word": " it",
+          "score": 0.99
+        },
+        {
+          "start": 48.8,
+          "end": 49.04,
+          "word": " one",
+          "score": 0.98
+        },
+        {
+          "start": 49.04,
+          "end": 49.36,
+          "word": " step",
+          "score": 1.0
+        },
+        {
+          "start": 49.36,
+          "end": 49.56,
+          "word": " at",
+          "score": 1.0
+        },
+        {
+          "start": 49.56,
+          "end": 49.68,
+          "word": " a",
+          "score": 0.99
+        },
+        {
+          "start": 49.68,
+          "end": 49.88,
+          "word": " time.",
+          "score": 1.0
+        }
+      ]
+    }
+  ]
+}

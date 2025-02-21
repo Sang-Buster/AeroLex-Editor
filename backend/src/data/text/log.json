@@ -1,0 +1,1984 @@
+[
+  {
+    "start": "00:00:02.320",
+    "end": "00:00:04.180",
+    "text": " Cessna three eight foxtrot say heading.",
+    "score": 0.82,
+    "words": [
+      {
+        "start": "00:00:02.320",
+        "end": "00:00:02.840",
+        "text": " Cessna",
+        "score": 0.74
+      },
+      {
+        "start": "00:00:02.840",
+        "end": "00:00:03.020",
+        "text": " three",
+        "score": 0.04
+      },
+      {
+        "start": "00:00:03.020",
+        "end": "00:00:03.340",
+        "text": " eight",
+        "score": 0.4
+      },
+      {
+        "start": "00:00:03.340",
+        "end": "00:00:03.600",
+        "text": " foxtrot",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:03.600",
+        "end": "00:00:03.860",
+        "text": " say",
+        "score": 0.69
+      },
+      {
+        "start": "00:00:03.860",
+        "end": "00:00:04.180",
+        "text": " heading.",
+        "score": 0.79
+      }
+    ]
+  },
+  {
+    "start": "00:00:05.360",
+    "end": "00:00:06.640",
+    "text": " Three eight foxtrot two seven zero.",
+    "score": 0.82,
+    "words": [
+      {
+        "start": "00:00:05.360",
+        "end": "00:00:05.380",
+        "text": " Three",
+        "score": 0.45
+      },
+      {
+        "start": "00:00:05.380",
+        "end": "00:00:05.540",
+        "text": " eight",
+        "score": 0.94
+      },
+      {
+        "start": "00:00:05.540",
+        "end": "00:00:05.780",
+        "text": " foxtrot",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:05.780",
+        "end": "00:00:06.140",
+        "text": " two",
+        "score": 0.66
+      },
+      {
+        "start": "00:00:06.140",
+        "end": "00:00:06.360",
+        "text": " seven",
+        "score": 0.96
+      },
+      {
+        "start": "00:00:06.360",
+        "end": "00:00:06.640",
+        "text": " zero.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:00:07.360",
+    "end": "00:00:09.300",
+    "text": " Cessna three eight foxtrot roger what would you like for on course?",
+    "score": 0.82,
+    "words": [
+      {
+        "start": "00:00:07.360",
+        "end": "00:00:07.440",
+        "text": " Cessna",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:07.440",
+        "end": "00:00:07.600",
+        "text": " three",
+        "score": 0.98
+      },
+      {
+        "start": "00:00:07.600",
+        "end": "00:00:07.760",
+        "text": " eight",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:07.760",
+        "end": "00:00:08.080",
+        "text": " foxtrot",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:08.080",
+        "end": "00:00:08.340",
+        "text": " roger",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:08.340",
+        "end": "00:00:08.460",
+        "text": " what",
+        "score": 0.41
+      },
+      {
+        "start": "00:00:08.460",
+        "end": "00:00:08.540",
+        "text": " would",
+        "score": 0.98
+      },
+      {
+        "start": "00:00:08.540",
+        "end": "00:00:08.620",
+        "text": " you",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:08.620",
+        "end": "00:00:08.760",
+        "text": " like",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:08.760",
+        "end": "00:00:08.940",
+        "text": " for",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:08.940",
+        "end": "00:00:09.080",
+        "text": " on",
+        "score": 0.62
+      },
+      {
+        "start": "00:00:09.080",
+        "end": "00:00:09.300",
+        "text": " course?",
+        "score": 0.95
+      }
+    ]
+  },
+  {
+    "start": "00:00:10.880",
+    "end": "00:00:12.460",
+    "text": " On course about two sixty.",
+    "score": 0.82,
+    "words": [
+      {
+        "start": "00:00:10.880",
+        "end": "00:00:11.100",
+        "text": " On",
+        "score": 0.63
+      },
+      {
+        "start": "00:00:11.100",
+        "end": "00:00:11.400",
+        "text": " course",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:11.400",
+        "end": "00:00:11.800",
+        "text": " about",
+        "score": 0.76
+      },
+      {
+        "start": "00:00:11.800",
+        "end": "00:00:12.100",
+        "text": " two",
+        "score": 0.64
+      },
+      {
+        "start": "00:00:12.100",
+        "end": "00:00:12.460",
+        "text": " sixty.",
+        "score": 0.92
+      }
+    ]
+  },
+  {
+    "start": "00:00:13.460",
+    "end": "00:00:16.640",
+    "text": " November three eight foxtrot roger proceed on course heading two six zero.",
+    "score": 0.82,
+    "words": [
+      {
+        "start": "00:00:13.460",
+        "end": "00:00:13.600",
+        "text": " November",
+        "score": 0.19
+      },
+      {
+        "start": "00:00:13.600",
+        "end": "00:00:13.860",
+        "text": " three",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:13.860",
+        "end": "00:00:14.040",
+        "text": " eight",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:14.040",
+        "end": "00:00:14.400",
+        "text": " foxtrot",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:14.400",
+        "end": "00:00:14.700",
+        "text": " roger",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:14.700",
+        "end": "00:00:14.980",
+        "text": " proceed",
+        "score": 0.96
+      },
+      {
+        "start": "00:00:14.980",
+        "end": "00:00:15.180",
+        "text": " on",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:15.180",
+        "end": "00:00:15.460",
+        "text": " course",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:15.460",
+        "end": "00:00:15.700",
+        "text": " heading",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:15.700",
+        "end": "00:00:15.920",
+        "text": " two",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:15.920",
+        "end": "00:00:16.160",
+        "text": " six",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:16.160",
+        "end": "00:00:16.640",
+        "text": " zero.",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "start": "00:00:17.560",
+    "end": "00:00:18.220",
+    "text": " Three eight foxtrot thank you.",
+    "score": 0.82,
+    "words": [
+      {
+        "start": "00:00:17.560",
+        "end": "00:00:17.600",
+        "text": " Three",
+        "score": 0.37
+      },
+      {
+        "start": "00:00:17.600",
+        "end": "00:00:17.740",
+        "text": " eight",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:17.740",
+        "end": "00:00:17.880",
+        "text": " foxtrot",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:17.880",
+        "end": "00:00:18.080",
+        "text": " thank",
+        "score": 0.83
+      },
+      {
+        "start": "00:00:18.080",
+        "end": "00:00:18.220",
+        "text": " you.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:00:19.400",
+    "end": "00:00:22.060",
+    "text": " Cessna three eight foxtrot maintain VFR at four thousand.",
+    "score": 0.82,
+    "words": [
+      {
+        "start": "00:00:19.400",
+        "end": "00:00:19.680",
+        "text": " Cessna",
+        "score": 0.98
+      },
+      {
+        "start": "00:00:19.680",
+        "end": "00:00:19.840",
+        "text": " three",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:19.840",
+        "end": "00:00:19.980",
+        "text": " eight",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:19.980",
+        "end": "00:00:20.300",
+        "text": " foxtrot",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:20.300",
+        "end": "00:00:20.720",
+        "text": " maintain",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:20.720",
+        "end": "00:00:21.160",
+        "text": " VFR",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:21.160",
+        "end": "00:00:21.420",
+        "text": " at",
+        "score": 0.87
+      },
+      {
+        "start": "00:00:21.420",
+        "end": "00:00:21.560",
+        "text": " four",
+        "score": 0.9
+      },
+      {
+        "start": "00:00:21.560",
+        "end": "00:00:22.060",
+        "text": " thousand.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:00:23.080",
+    "end": "00:00:24.920",
+    "text": " Three eight foxtrot maintain four thousand.",
+    "score": 0.82,
+    "words": [
+      {
+        "start": "00:00:23.080",
+        "end": "00:00:23.340",
+        "text": " Three",
+        "score": 0.98
+      },
+      {
+        "start": "00:00:23.340",
+        "end": "00:00:23.480",
+        "text": " eight",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:23.480",
+        "end": "00:00:23.620",
+        "text": " foxtrot",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:23.620",
+        "end": "00:00:24.000",
+        "text": " maintain",
+        "score": 0.96
+      },
+      {
+        "start": "00:00:24.000",
+        "end": "00:00:24.640",
+        "text": " four",
+        "score": 0.85
+      },
+      {
+        "start": "00:00:24.640",
+        "end": "00:00:24.920",
+        "text": " thousand.",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "start": "00:00:45.960",
+    "end": "00:00:49.960",
+    "text": " Cessna three eight foxtrot contact approach one two seven point two.",
+    "score": 0.84,
+    "words": [
+      {
+        "start": "00:00:45.960",
+        "end": "00:00:46.520",
+        "text": " Cessna",
+        "score": 0.72
+      },
+      {
+        "start": "00:00:46.520",
+        "end": "00:00:46.660",
+        "text": " three",
+        "score": 0.02
+      },
+      {
+        "start": "00:00:46.660",
+        "end": "00:00:46.900",
+        "text": " eight",
+        "score": 0.77
+      },
+      {
+        "start": "00:00:46.900",
+        "end": "00:00:47.320",
+        "text": " foxtrot",
+        "score": 0.86
+      },
+      {
+        "start": "00:00:47.320",
+        "end": "00:00:47.740",
+        "text": " contact",
+        "score": 0.41
+      },
+      {
+        "start": "00:00:47.740",
+        "end": "00:00:48.180",
+        "text": " approach",
+        "score": 0.71
+      },
+      {
+        "start": "00:00:48.180",
+        "end": "00:00:48.400",
+        "text": " one",
+        "score": 0.79
+      },
+      {
+        "start": "00:00:48.400",
+        "end": "00:00:48.620",
+        "text": " two",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:48.620",
+        "end": "00:00:48.960",
+        "text": " seven",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:48.960",
+        "end": "00:00:49.240",
+        "text": " point",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:49.240",
+        "end": "00:00:49.960",
+        "text": " two.",
+        "score": 0.98
+      }
+    ]
+  },
+  {
+    "start": "00:00:50.560",
+    "end": "00:00:53.220",
+    "text": " One two seven point two thank you.",
+    "score": 0.84,
+    "words": [
+      {
+        "start": "00:00:50.560",
+        "end": "00:00:50.560",
+        "text": " One",
+        "score": 0.76
+      },
+      {
+        "start": "00:00:50.560",
+        "end": "00:00:50.680",
+        "text": " two",
+        "score": 0.97
+      },
+      {
+        "start": "00:00:50.680",
+        "end": "00:00:50.900",
+        "text": " seven",
+        "score": 1.0
+      },
+      {
+        "start": "00:00:50.900",
+        "end": "00:00:51.120",
+        "text": " point",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:51.120",
+        "end": "00:00:51.300",
+        "text": " two",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:51.300",
+        "end": "00:00:51.440",
+        "text": " thank",
+        "score": 0.24
+      },
+      {
+        "start": "00:00:51.440",
+        "end": "00:00:53.220",
+        "text": " you.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:00:55.320",
+    "end": "00:00:57.220",
+    "text": " Shamrock ninety one one seven with you.",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:00:55.320",
+        "end": "00:00:55.760",
+        "text": " Shamrock",
+        "score": 0.55
+      },
+      {
+        "start": "00:00:55.760",
+        "end": "00:00:55.960",
+        "text": " ninety",
+        "score": 0.0
+      },
+      {
+        "start": "00:00:55.960",
+        "end": "00:00:56.140",
+        "text": " one",
+        "score": 0.74
+      },
+      {
+        "start": "00:00:56.140",
+        "end": "00:00:56.300",
+        "text": " one",
+        "score": 0.96
+      },
+      {
+        "start": "00:00:56.300",
+        "end": "00:00:56.560",
+        "text": " seven",
+        "score": 0.94
+      },
+      {
+        "start": "00:00:56.560",
+        "end": "00:00:56.740",
+        "text": " with",
+        "score": 0.89
+      },
+      {
+        "start": "00:00:56.740",
+        "end": "00:00:57.220",
+        "text": " you.",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "start": "00:00:57.880",
+    "end": "00:01:00.480",
+    "text": " Shamrock ninety one seventeen heavy balls in departure radar contact.",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:00:57.880",
+        "end": "00:00:58.020",
+        "text": " Shamrock",
+        "score": 0.84
+      },
+      {
+        "start": "00:00:58.020",
+        "end": "00:00:58.220",
+        "text": " ninety",
+        "score": 0.52
+      },
+      {
+        "start": "00:00:58.220",
+        "end": "00:00:58.440",
+        "text": " one",
+        "score": 0.99
+      },
+      {
+        "start": "00:00:58.440",
+        "end": "00:00:58.820",
+        "text": " seventeen",
+        "score": 0.69
+      },
+      {
+        "start": "00:00:58.820",
+        "end": "00:00:59.080",
+        "text": " heavy",
+        "score": 0.71
+      },
+      {
+        "start": "00:00:59.080",
+        "end": "00:00:59.300",
+        "text": " balls",
+        "score": 0.4
+      },
+      {
+        "start": "00:00:59.300",
+        "end": "00:00:59.460",
+        "text": " in",
+        "score": 0.72
+      },
+      {
+        "start": "00:00:59.460",
+        "end": "00:00:59.780",
+        "text": " departure",
+        "score": 0.95
+      },
+      {
+        "start": "00:00:59.780",
+        "end": "00:01:00.000",
+        "text": " radar",
+        "score": 0.35
+      },
+      {
+        "start": "00:01:00.000",
+        "end": "00:01:00.480",
+        "text": " contact.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:01:00.800",
+    "end": "00:01:03.180",
+    "text": " Turn left heading one zero zero and say altitude leaving.",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:01:00.800",
+        "end": "00:01:00.860",
+        "text": " Turn",
+        "score": 0.97
+      },
+      {
+        "start": "00:01:00.860",
+        "end": "00:01:01.160",
+        "text": " left",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:01.160",
+        "end": "00:01:01.440",
+        "text": " heading",
+        "score": 0.96
+      },
+      {
+        "start": "00:01:01.440",
+        "end": "00:01:01.640",
+        "text": " one",
+        "score": 0.96
+      },
+      {
+        "start": "00:01:01.640",
+        "end": "00:01:01.880",
+        "text": " zero",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:01.880",
+        "end": "00:01:02.220",
+        "text": " zero",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:02.220",
+        "end": "00:01:02.400",
+        "text": " and",
+        "score": 0.79
+      },
+      {
+        "start": "00:01:02.400",
+        "end": "00:01:02.540",
+        "text": " say",
+        "score": 0.94
+      },
+      {
+        "start": "00:01:02.540",
+        "end": "00:01:02.840",
+        "text": " altitude",
+        "score": 0.97
+      },
+      {
+        "start": "00:01:02.840",
+        "end": "00:01:03.180",
+        "text": " leaving.",
+        "score": 0.97
+      }
+    ]
+  },
+  {
+    "start": "00:01:03.880",
+    "end": "00:01:05.700",
+    "text": " One hundred and rudder thirteen hundred.",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:01:03.880",
+        "end": "00:01:03.960",
+        "text": " One",
+        "score": 0.43
+      },
+      {
+        "start": "00:01:03.960",
+        "end": "00:01:04.160",
+        "text": " hundred",
+        "score": 0.97
+      },
+      {
+        "start": "00:01:04.160",
+        "end": "00:01:04.300",
+        "text": " and",
+        "score": 0.6
+      },
+      {
+        "start": "00:01:04.300",
+        "end": "00:01:04.440",
+        "text": " rudder",
+        "score": 0.74
+      },
+      {
+        "start": "00:01:04.440",
+        "end": "00:01:04.760",
+        "text": " thirteen",
+        "score": 0.68
+      },
+      {
+        "start": "00:01:04.760",
+        "end": "00:01:05.700",
+        "text": " hundred.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:01:12.440",
+    "end": "00:01:15.280",
+    "text": " Transport you go three twenty three heavy turn right heading one five zero.",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:01:12.440",
+        "end": "00:01:12.880",
+        "text": " Transport",
+        "score": 0.1
+      },
+      {
+        "start": "00:01:12.880",
+        "end": "00:01:13.060",
+        "text": " you",
+        "score": 0.1
+      },
+      {
+        "start": "00:01:13.060",
+        "end": "00:01:13.160",
+        "text": " go",
+        "score": 0.81
+      },
+      {
+        "start": "00:01:13.160",
+        "end": "00:01:13.320",
+        "text": " three",
+        "score": 0.98
+      },
+      {
+        "start": "00:01:13.320",
+        "end": "00:01:13.540",
+        "text": " twenty",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:13.540",
+        "end": "00:01:13.740",
+        "text": " three",
+        "score": 0.91
+      },
+      {
+        "start": "00:01:13.740",
+        "end": "00:01:13.900",
+        "text": " heavy",
+        "score": 0.95
+      },
+      {
+        "start": "00:01:13.900",
+        "end": "00:01:14.120",
+        "text": " turn",
+        "score": 0.71
+      },
+      {
+        "start": "00:01:14.120",
+        "end": "00:01:14.280",
+        "text": " right",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:14.280",
+        "end": "00:01:14.440",
+        "text": " heading",
+        "score": 0.93
+      },
+      {
+        "start": "00:01:14.440",
+        "end": "00:01:14.640",
+        "text": " one",
+        "score": 0.98
+      },
+      {
+        "start": "00:01:14.640",
+        "end": "00:01:14.920",
+        "text": " five",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:14.920",
+        "end": "00:01:15.280",
+        "text": " zero.",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "start": "00:01:15.800",
+    "end": "00:01:18.220",
+    "text": " Right one five zero three two three heavy.",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:01:15.800",
+        "end": "00:01:16.000",
+        "text": " Right",
+        "score": 0.95
+      },
+      {
+        "start": "00:01:16.000",
+        "end": "00:01:16.220",
+        "text": " one",
+        "score": 0.96
+      },
+      {
+        "start": "00:01:16.220",
+        "end": "00:01:16.460",
+        "text": " five",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:16.460",
+        "end": "00:01:16.740",
+        "text": " zero",
+        "score": 1.0
+      },
+      {
+        "start": "00:01:16.740",
+        "end": "00:01:17.140",
+        "text": " three",
+        "score": 0.08
+      },
+      {
+        "start": "00:01:17.140",
+        "end": "00:01:17.820",
+        "text": " two",
+        "score": 0.65
+      },
+      {
+        "start": "00:01:17.820",
+        "end": "00:01:18.020",
+        "text": " three",
+        "score": 0.98
+      },
+      {
+        "start": "00:01:18.020",
+        "end": "00:01:18.220",
+        "text": " heavy.",
+        "score": 0.88
+      }
+    ]
+  },
+  {
+    "start": "00:01:19.980",
+    "end": "00:01:25.340",
+    "text": " Transport you go three twenty three heavy climb maintain one zero thousand contact approach one two zero point six.",
+    "score": 0.91,
+    "words": [
+      {
+        "start": "00:01:19.980",
+        "end": "00:01:20.540",
+        "text": " Transport",
+        "score": 0.08
+      },
+      {
+        "start": "00:01:20.540",
+        "end": "00:01:20.700",
+        "text": " you",
+        "score": 0.01
+      },
+      {
+        "start": "00:01:20.700",
+        "end": "00:01:20.800",
+        "text": " go",
+        "score": 0.57
+      },
+      {
+        "start": "00:01:20.800",
+        "end": "00:01:20.940",
+        "text": " three",
+        "score": 0.19
+      },
+      {
+        "start": "00:01:20.940",
+        "end": "00:01:21.160",
+        "text": " twenty",
+        "score": 0.88
+      },
+      {
+        "start": "00:01:21.160",
+        "end": "00:01:21.340",
+        "text": " three",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:21.340",
+        "end": "00:01:21.520",
+        "text": " heavy",
+        "score": 0.22
+      },
+      {
+        "start": "00:01:21.520",
+        "end": "00:01:21.640",
+        "text": " climb",
+        "score": 0.96
+      },
+      {
+        "start": "00:01:21.640",
+        "end": "00:01:22.020",
+        "text": " maintain",
+        "score": 0.84
+      },
+      {
+        "start": "00:01:22.020",
+        "end": "00:01:22.260",
+        "text": " one",
+        "score": 0.9
+      },
+      {
+        "start": "00:01:22.260",
+        "end": "00:01:22.540",
+        "text": " zero",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:22.540",
+        "end": "00:01:22.980",
+        "text": " thousand",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:22.980",
+        "end": "00:01:23.420",
+        "text": " contact",
+        "score": 0.92
+      },
+      {
+        "start": "00:01:23.420",
+        "end": "00:01:23.860",
+        "text": " approach",
+        "score": 0.97
+      },
+      {
+        "start": "00:01:23.860",
+        "end": "00:01:24.100",
+        "text": " one",
+        "score": 0.48
+      },
+      {
+        "start": "00:01:24.100",
+        "end": "00:01:24.240",
+        "text": " two",
+        "score": 0.94
+      },
+      {
+        "start": "00:01:24.240",
+        "end": "00:01:24.480",
+        "text": " zero",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:24.480",
+        "end": "00:01:24.700",
+        "text": " point",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:24.700",
+        "end": "00:01:25.340",
+        "text": " six.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:01:25.380",
+    "end": "00:01:28.840",
+    "text": " One two zero point six climbing one zero thousand.",
+    "score": 0.91,
+    "words": [
+      {
+        "start": "00:01:25.380",
+        "end": "00:01:25.880",
+        "text": " One",
+        "score": 0.53
+      },
+      {
+        "start": "00:01:25.880",
+        "end": "00:01:26.080",
+        "text": " two",
+        "score": 0.94
+      },
+      {
+        "start": "00:01:26.080",
+        "end": "00:01:26.280",
+        "text": " zero",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:26.280",
+        "end": "00:01:26.520",
+        "text": " point",
+        "score": 1.0
+      },
+      {
+        "start": "00:01:26.520",
+        "end": "00:01:27.100",
+        "text": " six",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:27.100",
+        "end": "00:01:27.640",
+        "text": " climbing",
+        "score": 0.88
+      },
+      {
+        "start": "00:01:27.640",
+        "end": "00:01:28.080",
+        "text": " one",
+        "score": 0.93
+      },
+      {
+        "start": "00:01:28.080",
+        "end": "00:01:28.360",
+        "text": " zero",
+        "score": 0.96
+      },
+      {
+        "start": "00:01:28.360",
+        "end": "00:01:28.840",
+        "text": " thousand.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:01:29.820",
+    "end": "00:01:33.280",
+    "text": " Shamrock ninety one seventeen heavy climb maintain one zero thousand.",
+    "score": 0.91,
+    "words": [
+      {
+        "start": "00:01:29.820",
+        "end": "00:01:30.000",
+        "text": " Shamrock",
+        "score": 0.46
+      },
+      {
+        "start": "00:01:30.000",
+        "end": "00:01:30.240",
+        "text": " ninety",
+        "score": 0.6
+      },
+      {
+        "start": "00:01:30.240",
+        "end": "00:01:30.520",
+        "text": " one",
+        "score": 0.91
+      },
+      {
+        "start": "00:01:30.520",
+        "end": "00:01:31.160",
+        "text": " seventeen",
+        "score": 0.28
+      },
+      {
+        "start": "00:01:31.160",
+        "end": "00:01:31.460",
+        "text": " heavy",
+        "score": 0.81
+      },
+      {
+        "start": "00:01:31.460",
+        "end": "00:01:31.680",
+        "text": " climb",
+        "score": 1.0
+      },
+      {
+        "start": "00:01:31.680",
+        "end": "00:01:32.100",
+        "text": " maintain",
+        "score": 0.95
+      },
+      {
+        "start": "00:01:32.100",
+        "end": "00:01:32.380",
+        "text": " one",
+        "score": 0.99
+      },
+      {
+        "start": "00:01:32.380",
+        "end": "00:01:32.660",
+        "text": " zero",
+        "score": 1.0
+      },
+      {
+        "start": "00:01:32.660",
+        "end": "00:01:33.280",
+        "text": " thousand.",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "start": "00:01:33.280",
+    "end": "00:01:35.720",
+    "text": " Azure one zero thousand now heading one hundred.",
+    "score": 0.66,
+    "words": [
+      {
+        "start": "00:01:33.280",
+        "end": "00:01:34.160",
+        "text": " Azure",
+        "score": 0.04
+      },
+      {
+        "start": "00:01:34.160",
+        "end": "00:01:34.320",
+        "text": " one",
+        "score": 0.01
+      },
+      {
+        "start": "00:01:34.320",
+        "end": "00:01:34.580",
+        "text": " zero",
+        "score": 0.95
+      },
+      {
+        "start": "00:01:34.580",
+        "end": "00:01:34.940",
+        "text": " thousand",
+        "score": 0.72
+      },
+      {
+        "start": "00:01:34.940",
+        "end": "00:01:35.100",
+        "text": " now",
+        "score": 0.41
+      },
+      {
+        "start": "00:01:35.100",
+        "end": "00:01:35.260",
+        "text": " heading",
+        "score": 0.66
+      },
+      {
+        "start": "00:01:35.260",
+        "end": "00:01:35.420",
+        "text": " one",
+        "score": 0.78
+      },
+      {
+        "start": "00:01:35.420",
+        "end": "00:01:35.720",
+        "text": " hundred.",
+        "score": 0.98
+      }
+    ]
+  },
+  {
+    "start": "00:02:28.780",
+    "end": "00:02:33.040",
+    "text": " Shamrock ninety one seventeen heavy contact approach one one eight point two five.",
+    "score": 0.87,
+    "words": [
+      {
+        "start": "00:02:28.780",
+        "end": "00:02:29.340",
+        "text": " Shamrock",
+        "score": 0.62
+      },
+      {
+        "start": "00:02:29.340",
+        "end": "00:02:29.580",
+        "text": " ninety",
+        "score": 0.0
+      },
+      {
+        "start": "00:02:29.580",
+        "end": "00:02:29.800",
+        "text": " one",
+        "score": 0.59
+      },
+      {
+        "start": "00:02:29.800",
+        "end": "00:02:30.240",
+        "text": " seventeen",
+        "score": 0.85
+      },
+      {
+        "start": "00:02:30.240",
+        "end": "00:02:30.500",
+        "text": " heavy",
+        "score": 0.76
+      },
+      {
+        "start": "00:02:30.500",
+        "end": "00:02:30.940",
+        "text": " contact",
+        "score": 0.99
+      },
+      {
+        "start": "00:02:30.940",
+        "end": "00:02:31.420",
+        "text": " approach",
+        "score": 0.66
+      },
+      {
+        "start": "00:02:31.420",
+        "end": "00:02:31.720",
+        "text": " one",
+        "score": 0.88
+      },
+      {
+        "start": "00:02:31.720",
+        "end": "00:02:31.900",
+        "text": " one",
+        "score": 0.99
+      },
+      {
+        "start": "00:02:31.900",
+        "end": "00:02:32.180",
+        "text": " eight",
+        "score": 0.99
+      },
+      {
+        "start": "00:02:32.180",
+        "end": "00:02:32.460",
+        "text": " point",
+        "score": 0.96
+      },
+      {
+        "start": "00:02:32.460",
+        "end": "00:02:32.720",
+        "text": " two",
+        "score": 0.99
+      },
+      {
+        "start": "00:02:32.720",
+        "end": "00:02:33.040",
+        "text": " five.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:02:33.640",
+    "end": "00:02:35.300",
+    "text": " One one eight point two five just.",
+    "score": 0.85,
+    "words": [
+      {
+        "start": "00:02:33.640",
+        "end": "00:02:34.160",
+        "text": " One",
+        "score": 0.01
+      },
+      {
+        "start": "00:02:34.160",
+        "end": "00:02:34.280",
+        "text": " one",
+        "score": 0.55
+      },
+      {
+        "start": "00:02:34.280",
+        "end": "00:02:34.400",
+        "text": " eight",
+        "score": 0.98
+      },
+      {
+        "start": "00:02:34.400",
+        "end": "00:02:34.600",
+        "text": " point",
+        "score": 0.95
+      },
+      {
+        "start": "00:02:34.600",
+        "end": "00:02:34.800",
+        "text": " two",
+        "score": 0.99
+      },
+      {
+        "start": "00:02:34.800",
+        "end": "00:02:35.060",
+        "text": " five",
+        "score": 0.99
+      },
+      {
+        "start": "00:02:35.060",
+        "end": "00:02:35.300",
+        "text": " just.",
+        "score": 0.05
+      }
+    ]
+  },
+  {
+    "start": "00:02:37.160",
+    "end": "00:02:39.860",
+    "text": " Boston departure near thirty seven thirty seven is coming up on a thousand.",
+    "score": 0.85,
+    "words": [
+      {
+        "start": "00:02:37.160",
+        "end": "00:02:37.340",
+        "text": " Boston",
+        "score": 0.97
+      },
+      {
+        "start": "00:02:37.340",
+        "end": "00:02:37.660",
+        "text": " departure",
+        "score": 0.81
+      },
+      {
+        "start": "00:02:37.660",
+        "end": "00:02:37.840",
+        "text": " near",
+        "score": 0.41
+      },
+      {
+        "start": "00:02:37.840",
+        "end": "00:02:38.120",
+        "text": " thirty",
+        "score": 0.36
+      },
+      {
+        "start": "00:02:38.120",
+        "end": "00:02:38.400",
+        "text": " seven",
+        "score": 0.89
+      },
+      {
+        "start": "00:02:38.400",
+        "end": "00:02:38.640",
+        "text": " thirty",
+        "score": 0.57
+      },
+      {
+        "start": "00:02:38.640",
+        "end": "00:02:38.920",
+        "text": " seven",
+        "score": 0.99
+      },
+      {
+        "start": "00:02:38.920",
+        "end": "00:02:39.080",
+        "text": " is",
+        "score": 0.82
+      },
+      {
+        "start": "00:02:39.080",
+        "end": "00:02:39.200",
+        "text": " coming",
+        "score": 0.98
+      },
+      {
+        "start": "00:02:39.200",
+        "end": "00:02:39.360",
+        "text": " up",
+        "score": 0.97
+      },
+      {
+        "start": "00:02:39.360",
+        "end": "00:02:39.460",
+        "text": " on",
+        "score": 0.8
+      },
+      {
+        "start": "00:02:39.460",
+        "end": "00:02:39.580",
+        "text": " a",
+        "score": 0.92
+      },
+      {
+        "start": "00:02:39.580",
+        "end": "00:02:39.860",
+        "text": " thousand.",
+        "score": 0.98
+      }
+    ]
+  },
+  {
+    "start": "00:02:40.680",
+    "end": "00:02:44.480",
+    "text": " Near thirty seven thirty seven Boston departure radar contact climb maintain four thousand.",
+    "score": 0.85,
+    "words": [
+      {
+        "start": "00:02:40.680",
+        "end": "00:02:40.720",
+        "text": " Near",
+        "score": 0.6
+      },
+      {
+        "start": "00:02:40.720",
+        "end": "00:02:40.980",
+        "text": " thirty",
+        "score": 0.51
+      },
+      {
+        "start": "00:02:40.980",
+        "end": "00:02:41.320",
+        "text": " seven",
+        "score": 0.99
+      },
+      {
+        "start": "00:02:41.320",
+        "end": "00:02:41.500",
+        "text": " thirty",
+        "score": 0.95
+      },
+      {
+        "start": "00:02:41.500",
+        "end": "00:02:41.800",
+        "text": " seven",
+        "score": 1.0
+      },
+      {
+        "start": "00:02:41.800",
+        "end": "00:02:42.080",
+        "text": " Boston",
+        "score": 0.62
+      },
+      {
+        "start": "00:02:42.080",
+        "end": "00:02:42.480",
+        "text": " departure",
+        "score": 0.9
+      },
+      {
+        "start": "00:02:42.480",
+        "end": "00:02:42.660",
+        "text": " radar",
+        "score": 0.09
+      },
+      {
+        "start": "00:02:42.660",
+        "end": "00:02:43.120",
+        "text": " contact",
+        "score": 0.99
+      },
+      {
+        "start": "00:02:43.120",
+        "end": "00:02:43.400",
+        "text": " climb",
+        "score": 0.78
+      },
+      {
+        "start": "00:02:43.400",
+        "end": "00:02:43.820",
+        "text": " maintain",
+        "score": 0.91
+      },
+      {
+        "start": "00:02:43.820",
+        "end": "00:02:44.080",
+        "text": " four",
+        "score": 0.97
+      },
+      {
+        "start": "00:02:44.080",
+        "end": "00:02:44.480",
+        "text": " thousand.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:02:45.200",
+    "end": "00:02:47.900",
+    "text": " Up to four thousand near thirty seven thirty seven.",
+    "score": 0.9,
+    "words": [
+      {
+        "start": "00:02:45.200",
+        "end": "00:02:45.680",
+        "text": " Up",
+        "score": 0.01
+      },
+      {
+        "start": "00:02:45.680",
+        "end": "00:02:45.900",
+        "text": " to",
+        "score": 1.0
+      },
+      {
+        "start": "00:02:45.900",
+        "end": "00:02:46.040",
+        "text": " four",
+        "score": 0.07
+      },
+      {
+        "start": "00:02:46.040",
+        "end": "00:02:46.400",
+        "text": " thousand",
+        "score": 0.97
+      },
+      {
+        "start": "00:02:46.400",
+        "end": "00:02:46.580",
+        "text": " near",
+        "score": 0.3
+      },
+      {
+        "start": "00:02:46.580",
+        "end": "00:02:46.800",
+        "text": " thirty",
+        "score": 0.27
+      },
+      {
+        "start": "00:02:46.800",
+        "end": "00:02:47.060",
+        "text": " seven",
+        "score": 0.71
+      },
+      {
+        "start": "00:02:47.060",
+        "end": "00:02:47.280",
+        "text": " thirty",
+        "score": 0.67
+      },
+      {
+        "start": "00:02:47.280",
+        "end": "00:02:47.900",
+        "text": " seven.",
+        "score": 1.0
+      }
+    ]
+  },
+  {
+    "start": "00:03:53.480",
+    "end": "00:03:56.920",
+    "text": " Departure Pan Am seven ninety three is out of six hundred for three thousand.",
+    "score": 0.87,
+    "words": [
+      {
+        "start": "00:03:53.480",
+        "end": "00:03:53.920",
+        "text": " Departure",
+        "score": 0.9
+      },
+      {
+        "start": "00:03:53.920",
+        "end": "00:03:54.100",
+        "text": " Pan",
+        "score": 0.32
+      },
+      {
+        "start": "00:03:54.100",
+        "end": "00:03:54.240",
+        "text": " Am",
+        "score": 0.91
+      },
+      {
+        "start": "00:03:54.240",
+        "end": "00:03:54.460",
+        "text": " seven",
+        "score": 0.01
+      },
+      {
+        "start": "00:03:54.460",
+        "end": "00:03:54.700",
+        "text": " ninety",
+        "score": 0.9
+      },
+      {
+        "start": "00:03:54.700",
+        "end": "00:03:54.960",
+        "text": " three",
+        "score": 0.87
+      },
+      {
+        "start": "00:03:54.960",
+        "end": "00:03:55.180",
+        "text": " is",
+        "score": 0.94
+      },
+      {
+        "start": "00:03:55.180",
+        "end": "00:03:55.680",
+        "text": " out",
+        "score": 0.8
+      },
+      {
+        "start": "00:03:55.680",
+        "end": "00:03:55.880",
+        "text": " of",
+        "score": 0.91
+      },
+      {
+        "start": "00:03:55.880",
+        "end": "00:03:56.000",
+        "text": " six",
+        "score": 0.85
+      },
+      {
+        "start": "00:03:56.000",
+        "end": "00:03:56.240",
+        "text": " hundred",
+        "score": 0.98
+      },
+      {
+        "start": "00:03:56.240",
+        "end": "00:03:56.500",
+        "text": " for",
+        "score": 0.62
+      },
+      {
+        "start": "00:03:56.500",
+        "end": "00:03:56.600",
+        "text": " three",
+        "score": 0.96
+      },
+      {
+        "start": "00:03:56.600",
+        "end": "00:03:56.920",
+        "text": " thousand.",
+        "score": 0.95
+      }
+    ]
+  },
+  {
+    "start": "00:03:57.540",
+    "end": "00:03:59.600",
+    "text": " Pan Am seven ninety three Boston departure radar contact.",
+    "score": 0.87,
+    "words": [
+      {
+        "start": "00:03:57.540",
+        "end": "00:03:57.600",
+        "text": " Pan",
+        "score": 0.93
+      },
+      {
+        "start": "00:03:57.600",
+        "end": "00:03:57.720",
+        "text": " Am",
+        "score": 0.98
+      },
+      {
+        "start": "00:03:57.720",
+        "end": "00:03:57.940",
+        "text": " seven",
+        "score": 0.95
+      },
+      {
+        "start": "00:03:57.940",
+        "end": "00:03:58.140",
+        "text": " ninety",
+        "score": 0.99
+      },
+      {
+        "start": "00:03:58.140",
+        "end": "00:03:58.320",
+        "text": " three",
+        "score": 0.99
+      },
+      {
+        "start": "00:03:58.320",
+        "end": "00:03:58.600",
+        "text": " Boston",
+        "score": 0.66
+      },
+      {
+        "start": "00:03:58.600",
+        "end": "00:03:59.000",
+        "text": " departure",
+        "score": 0.17
+      },
+      {
+        "start": "00:03:59.000",
+        "end": "00:03:59.200",
+        "text": " radar",
+        "score": 0.2
+      },
+      {
+        "start": "00:03:59.200",
+        "end": "00:03:59.600",
+        "text": " contact.",
+        "score": 0.2
+      }
+    ]
+  },
+  {
+    "start": "00:03:59.600",
+    "end": "00:04:13.260",
+    "text": " Pan Am seven ninety three.",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:03:59.600",
+        "end": "00:04:00.820",
+        "text": " Pan",
+        "score": 0.0
+      },
+      {
+        "start": "00:04:00.820",
+        "end": "00:04:00.920",
+        "text": " Am",
+        "score": 0.1
+      },
+      {
+        "start": "00:04:00.920",
+        "end": "00:04:00.920",
+        "text": " seven",
+        "score": 0.0
+      },
+      {
+        "start": "00:04:00.920",
+        "end": "00:04:00.920",
+        "text": " ninety",
+        "score": 0.0
+      },
+      {
+        "start": "00:04:00.920",
+        "end": "00:04:13.260",
+        "text": " three.",
+        "score": 0.1
+      }
+    ]
+  },
+  {
+    "start": "00:04:21.680",
+    "end": "00:04:25.280",
+    "text": " Near thirty seven thirty seven fly heading one five zero.",
+    "score": 0.79,
+    "words": [
+      {
+        "start": "00:04:21.680",
+        "end": "00:04:22.400",
+        "text": " Near",
+        "score": 0.04
+      },
+      {
+        "start": "00:04:22.400",
+        "end": "00:04:22.680",
+        "text": " thirty",
+        "score": 0.61
+      },
+      {
+        "start": "00:04:22.680",
+        "end": "00:04:23.080",
+        "text": " seven",
+        "score": 0.96
+      },
+      {
+        "start": "00:04:23.080",
+        "end": "00:04:23.360",
+        "text": " thirty",
+        "score": 0.87
+      },
+      {
+        "start": "00:04:23.360",
+        "end": "00:04:23.720",
+        "text": " seven",
+        "score": 0.97
+      },
+      {
+        "start": "00:04:23.720",
+        "end": "00:04:24.000",
+        "text": " fly",
+        "score": 0.26
+      },
+      {
+        "start": "00:04:24.000",
+        "end": "00:04:24.180",
+        "text": " heading",
+        "score": 0.71
+      },
+      {
+        "start": "00:04:24.180",
+        "end": "00:04:24.480",
+        "text": " one",
+        "score": 0.87
+      },
+      {
+        "start": "00:04:24.480",
+        "end": "00:04:24.820",
+        "text": " five",
+        "score": 0.98
+      },
+      {
+        "start": "00:04:24.820",
+        "end": "00:04:25.280",
+        "text": " zero.",
+        "score": 0.99
+      }
+    ]
+  },
+  {
+    "start": "00:04:25.880",
+    "end": "00:04:28.280",
+    "text": " One five zero near thirty seven thirty seven.",
+    "score": 0.87,
+    "words": [
+      {
+        "start": "00:04:25.880",
+        "end": "00:04:26.360",
+        "text": " One",
+        "score": 0.1
+      },
+      {
+        "start": "00:04:26.360",
+        "end": "00:04:26.580",
+        "text": " five",
+        "score": 0.15
+      },
+      {
+        "start": "00:04:26.580",
+        "end": "00:04:26.780",
+        "text": " zero",
+        "score": 0.97
+      },
+      {
+        "start": "00:04:26.780",
+        "end": "00:04:26.980",
+        "text": " near",
+        "score": 0.79
+      },
+      {
+        "start": "00:04:26.980",
+        "end": "00:04:27.160",
+        "text": " thirty",
+        "score": 0.31
+      },
+      {
+        "start": "00:04:27.160",
+        "end": "00:04:27.460",
+        "text": " seven",
+        "score": 0.77
+      },
+      {
+        "start": "00:04:27.460",
+        "end": "00:04:27.700",
+        "text": " thirty",
+        "score": 0.42
+      },
+      {
+        "start": "00:04:27.700",
+        "end": "00:04:28.280",
+        "text": " seven.",
+        "score": 0.98
+      }
+    ]
+  },
+  {
+    "start": "00:04:49.220",
+    "end": "00:04:52.040",
+    "text": " Pan Am seven ninety three climb maintain four thousand.",
+    "score": 0.87,
+    "words": [
+      {
+        "start": "00:04:49.220",
+        "end": "00:04:49.700",
+        "text": " Pan",
+        "score": 0.0
+      },
+      {
+        "start": "00:04:49.700",
+        "end": "00:04:50.180",
+        "text": " Am",
+        "score": 0.82
+      },
+      {
+        "start": "00:04:50.180",
+        "end": "00:04:50.380",
+        "text": " seven",
+        "score": 0.71
+      },
+      {
+        "start": "00:04:50.380",
+        "end": "00:04:50.560",
+        "text": " ninety",
+        "score": 0.42
+      },
+      {
+        "start": "00:04:50.560",
+        "end": "00:04:50.780",
+        "text": " three",
+        "score": 0.94
+      },
+      {
+        "start": "00:04:50.780",
+        "end": "00:04:50.960",
+        "text": " climb",
+        "score": 0.62
+      },
+      {
+        "start": "00:04:50.960",
+        "end": "00:04:51.360",
+        "text": " maintain",
+        "score": 0.71
+      },
+      {
+        "start": "00:04:51.360",
+        "end": "00:04:51.620",
+        "text": " four",
+        "score": 0.97
+      },
+      {
+        "start": "00:04:51.620",
+        "end": "00:04:52.040",
+        "text": " thousand.",
+        "score": 0.99
+      }
+    ]
+  }
+]
