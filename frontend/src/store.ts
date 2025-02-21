@@ -16,7 +16,7 @@ const currentPlaybackTime = writable(0);
 const wordLevelData = writable(true);
 const scoreView = writable(false);
 const waveStore = writable(null);
-const mediaStoreURL = writable("/audio/demo.mp3");
+const mediaStoreURL = writable("/audio/log.mp3");
 const isPlayable = writable(false);
 const fileInfo = writable({
   mediaFileName: null,
@@ -30,7 +30,7 @@ let strack: SubtitleTrack, ttrack: SubtitleTrack;
 
 // Load initial data
 try {
-  const response = await fetch("/text/demo.json");
+  const response = await fetch("/text/log.json");
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);
   }

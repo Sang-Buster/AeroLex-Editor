@@ -69,7 +69,7 @@
     top: 0;
     left: 0;
     height: 60px;
-    width: 100%; /* Make sure it fills the container */
+    width: 100%;
     margin: 0;
   }
 </style>

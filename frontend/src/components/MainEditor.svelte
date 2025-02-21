@@ -26,33 +26,40 @@
 </script>
 
 <div class="h-full overflow-auto py-4">
-  <div class="flex justify-center relative max-w-[85rem] mx-auto">
-    <div class="w-2/10">
-      <div
-        class="flex relative h-full"
-        id="wave-container"
-        style="padding-left: 16px; padding-right: 16px;"
-      >
-        {#if !$isPlayable}
-          <div class="text-xs flex flex-col w-full text-center items-center">
-            <div>Loading Media. Takes a few seconds with large files.</div>
-            <div class="lds-ripple">
-              <div></div>
-              <div></div>
-            </div>
+  <div class="max-w-[85rem] mx-auto px-4">
+    <div class="flex justify-center">
+      <div class="flex gap-4" style="width: 1060px">
+        <div class="w-[60px] flex-shrink-0">
+          <div
+            class="relative h-full"
+            id="wave-container"
+            style="min-height: 500px;"
+          >
+            {#if !$isPlayable}
+              <div
+                class="text-xs flex flex-col w-full text-center items-center"
+              >
+                <div>Loading Media. Takes a few seconds with large files.</div>
+                <div class="lds-ripple">
+                  <div></div>
+                  <div></div>
+                </div>
+              </div>
+            {/if}
+            <WaveformPlayer />
           </div>
-        {/if}
-        <WaveformPlayer />
+        </div>
+
+        <div class="w-[1000px]" id="main-editor">
+          {#each $currentTrack.iterate() as subtitleNode (subtitleNode.data.uuid)}
+            <SubtitleNodeCard
+              node={subtitleNode}
+              {currentTrack}
+              {currentPlaybackTime}
+            />
+          {/each}
+        </div>
       </div>
-    </div>
-    <div class="w-10/12" id="main-editor">
-      {#each $currentTrack.iterate() as subtitleNode (subtitleNode.data.uuid)}
-        <SubtitleNodeCard
-          node={subtitleNode}
-          {currentTrack}
-          {currentPlaybackTime}
-        />
-      {/each}
     </div>
   </div>
 </div>

@@ -10,7 +10,7 @@
     scoreView,
   } from "./store";
 
-  let transcriptView = true;
+  let transcriptView = false;
   const toggleScoreView = () => {
     $scoreView = !$scoreView;
     currentTrack.resetTrack();

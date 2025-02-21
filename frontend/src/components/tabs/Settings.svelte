@@ -4,21 +4,62 @@
     fileInfo,
     waveStore,
     currentPlaybackTime,
+    subtitleTrackStore,
+    transcriptTrackStore,
   } from "../../store";
   import { msToTimestamp, newSessionMetadata } from "../../utils";
+  import type { SubtitleNode } from "../../utils";
 
   export let toggleTranscriptView;
   export let toggleScoreView;
   export let transcriptView;
   export let scoreView;
 
-  // Get metadata for display
+  // Helper function to convert iterator to array
+  function iteratorToArray<T>(iterator: Iterator<T>): T[] {
+    const array: T[] = [];
+    let result = iterator.next();
+    while (!result.done) {
+      array.push(result.value);
+      result = iterator.next();
+    }
+    return array;
+  }
+
+  // Get current segment number based on playback time
+  $: currentSegmentNumber = (() => {
+    if (!$waveStore) return 0;
+
+    const currentTrack = transcriptView
+      ? $transcriptTrackStore
+      : $subtitleTrackStore;
+    const segments = iteratorToArray(currentTrack.iterate());
+
+    const currentTime = $currentPlaybackTime * 1000; // Convert to ms
+    for (let i = 0; i < segments.length; i++) {
+      const segment = segments[i];
+      if (
+        currentTime >= segment.data.start &&
+        currentTime <= segment.data.end
+      ) {
+        return i + 1; // Add 1 since we want to display 1-based index
+      }
+    }
+    return 0;
+  })();
+
+  // Get total segments count
+  $: totalSegments = transcriptView
+    ? iteratorToArray($transcriptTrackStore.iterate()).length
+    : iteratorToArray($subtitleTrackStore.iterate()).length;
+
+  // Get metadata for display with dynamic segment count
   $: metadata = $waveStore
     ? {
         EOT: msToTimestamp($waveStore.getDuration() * 1000),
         CUR: msToTimestamp($currentPlaybackTime * 1000),
         SPD: $waveStore.getPlaybackRate() + "x",
-        SEG: "5", // Replace with actual segment count if available
+        SEG: `${currentSegmentNumber || "-"}/${totalSegments}`,
       }
     : {};
 
