@@ -424,8 +424,7 @@
           </svg>
         </li>
         <li>Change playback speed with (n)x</li>
-        <li>Toggle between transcript & subtitle</li>
-        <li>Toggle confidence (if applicable)</li>
+        <li>Toggle between transcript & subtitle or show confidence</li>
       </ul>
     </div>
   </div>

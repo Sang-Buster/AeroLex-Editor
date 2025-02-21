@@ -5,6 +5,7 @@ import {
   sanitizeContent,
   SubtitleTrack,
   SubtitleNode,
+  msToTimestamp,
 } from "./utils";
 import type { TranscribedData } from "./types";
 import { nanoid } from "nanoid";
@@ -62,9 +63,33 @@ function createErrorStore() {
 
 function createSubtitleTrackStore(track: SubtitleTrack) {
   const { subscribe, update, set } = writable(track);
+
+  // Helper function to update raw transcript data
+  const updateRawTranscript = (track: SubtitleTrack) => {
+    const segments = Array.from(track.iterate() as Iterable<SubtitleNode>).map(
+      (node) => ({
+        score: node.data.score,
+        start: msToTimestamp(node.data.start),
+        end: msToTimestamp(node.data.end),
+        text: node.data.text,
+        words:
+          node.data.words?.map((word) => ({
+            start: msToTimestamp(word.start as number),
+            end: msToTimestamp(word.end as number),
+            text: word.text,
+            score: word.score,
+          })) || [],
+      }),
+    );
+    rawTranscriptDataStore.set(segments);
+  };
+
   return {
     subscribe,
-    set,
+    set: (newTrack: SubtitleTrack) => {
+      set(newTrack);
+      updateRawTranscript(newTrack);
+    },
     appendAfterSegment: (node: SubtitleNode) => {
       resetNodeNextPrev(node);
       update((t) => {
@@ -77,6 +102,7 @@ function createSubtitleTrackStore(track: SubtitleTrack) {
         };
         let nd = segmentToNodeData(s);
         t.appendAfterNode(nd, node);
+        updateRawTranscript(t);
         return t;
       });
     },
@@ -92,6 +118,7 @@ function createSubtitleTrackStore(track: SubtitleTrack) {
         };
         let nd = segmentToNodeData(s);
         t.appendBeforeNode(nd, node);
+        updateRawTranscript(t);
         return t;
       });
     },
@@ -114,6 +141,7 @@ function createSubtitleTrackStore(track: SubtitleTrack) {
           node.yeetSelf();
           t.size--;
         }
+        updateRawTranscript(t);
         return t;
       });
     },
@@ -129,13 +157,27 @@ function createSubtitleTrackStore(track: SubtitleTrack) {
       node.data.start = ts.start;
       node.data.end = ts.end;
       resetNodeNextPrev(node);
-      update((t) => t);
+      update((t) => {
+        updateRawTranscript(t);
+        return t;
+      });
+    },
+    updateTextForSegment: (node: SubtitleNode, text: string) => {
+      node.data.text = text;
+      resetNodeNextPrev(node);
+      update((t) => {
+        updateRawTranscript(t);
+        return t;
+      });
     },
     resetTrack: (node?: SubtitleNode) => {
       if (node) {
         resetNodeNextPrev(node);
       }
-      update((t) => t);
+      update((t) => {
+        updateRawTranscript(t);
+        return t;
+      });
     },
   };
 }

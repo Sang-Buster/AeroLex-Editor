@@ -202,7 +202,7 @@ class SubtitleTrack {
     this.size--;
   }
 
-  public *iterate(): Iterator<SubtitleNode, void, SubtitleNode> {
+  public *iterate(): IterableIterator<SubtitleNode> {
     let current = this.head;
     while (current) {
       yield current;
