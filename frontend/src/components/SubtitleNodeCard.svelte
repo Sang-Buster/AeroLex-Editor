@@ -96,8 +96,8 @@
 <div>
   {#if prePause > 0}
     <div class="flex justify-center text-xs text-stone-500 font-mono">
-      🤜
-      {prePause}s 🤛
+      --
+      {prePause}s --
     </div>
   {/if}
   <div

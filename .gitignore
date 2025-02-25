@@ -22,7 +22,6 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-data
 
 
 # Python
@@ -45,4 +44,6 @@ data
 *.json
 *.srt
 *.vtt
-backend/src/data/proc/log.json
+
+# Cursor Rules
+.cursor/

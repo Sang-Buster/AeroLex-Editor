@@ -131,16 +131,16 @@ uv pip install -r requirements.txt
 ```
 
 4. **Install `ruff` and `pre-commit`:**
-  ```bash
-  uv pip install ruff pre-commit
-  ```
+```bash
+uv pip install ruff pre-commit
+```
    - `pre-commit` helps maintain code quality by running automated checks before commits are made.
    - `ruff` is a modern Python code formatter and linter.
 
 5. **Install git hooks:**
-   ```bash
-   pre-commit install --hook-type commit-msg --hook-type pre-commit --hook-type pre-push
-   ```
+```bash
+pre-commit install --hook-type commit-msg --hook-type pre-commit --hook-type pre-push
+```
 
    These hooks perform different checks at various stages:
    - `commit-msg`: Ensures commit messages follow the conventional format
