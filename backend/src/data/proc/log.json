@@ -4,209 +4,239 @@
         "end": "00:00:04.570",
         "text": "Cessna 38 Foxtrot, say heading.",
         "speaker": "ID-1",
-        "listener": "N8F"
+        "listener": "N8F",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [x] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:05.130",
         "end": "00:00:07.100",
         "text": "Cessna 38F, heading 270.",
         "speaker": "N8F",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [x] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:07.170",
         "end": "00:00:09.590",
         "text": "Cessna 38 Foxtrot, roger. What would you like for on course?",
         "speaker": "ID-1",
-        "listener": "N8F"
+        "listener": "N8F",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [x] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:10.670",
         "end": "00:00:12.880",
         "text": "On course about 260.",
         "speaker": "N8F",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [x] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:13.260",
         "end": "00:00:17.040",
         "text": "November 38 Foxtrot, roger, proceed on course heading 260.",
         "speaker": "ID-1",
-        "listener": "N8F"
+        "listener": "N8F",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [x] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:17.390",
         "end": "00:00:18.720",
         "text": "November 38 Fox, thank you.",
         "speaker": "N8F",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [x] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:19.210",
         "end": "00:00:22.410",
         "text": "Cessna 38F, maintain VFR at 4,000.",
         "speaker": "ID-1",
-        "listener": "N8F"
+        "listener": "N8F",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:23.110",
         "end": "00:00:25.310",
         "text": "November Three Eight Foxtrot, maintain four thousand.",
         "speaker": "N8F",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [x] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:45.730",
         "end": "00:00:49.930",
         "text": "Cessna 38 Foxtrot, contact Approach one two seven point two.",
         "speaker": "ID-1",
-        "listener": "N8F"
+        "listener": "N8F",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [x] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:50.260",
         "end": "00:00:51.930",
         "text": "127.2, thank you.",
         "speaker": "N8F",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [x] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:55.180",
         "end": "00:00:57.140",
         "text": "Shamrock 9117, with you.",
         "speaker": "SHR9117",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [x] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:00:57.440",
         "end": "00:01:03.550",
         "text": "Shamrock 9117, heavy Boston departure radar contact, turn left heading 100, and say altitude leaving.",
         "speaker": "ID-1",
-        "listener": "SHR9117"
+        "listener": "SHR9117",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:01:03.830",
         "end": "00:01:05.260",
         "text": "100, out of 1,300",
         "speaker": "SHR9117",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [x] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:01:12.390",
         "end": "00:01:15.560",
         "text": "Trans Portugal 323, turn right heading 150.",
         "speaker": "ID-1",
-        "listener": "TAP323"
+        "listener": "TAP323",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [x] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:01:15.780",
         "end": "00:01:18.370",
         "text": "Right, heading 150, TAP323 heavy.",
         "speaker": "TAP323",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [x] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:01:19.950",
         "end": "00:01:25.480",
         "text": "Trans Portugal 323, climb and maintain 10,000, contact approach one two zero point six.",
         "speaker": "ID-1",
-        "listener": "TAP323"
+        "listener": "TAP323",
+        "note": "- Intention:\n        - [x] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:01:25.690",
         "end": "00:01:28.810",
         "text": "Trans Portugal 323, climbing one zero thousand, contact Approach on one two zero point six.",
         "speaker": "TAP323",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [x] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [x] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:01:29.340",
         "end": "00:01:33.550",
         "text": "Shamrock 9117, heavy climb and maintain 10,000.",
         "speaker": "ID-1",
-        "listener": "SHR9117"
+        "listener": "SHR9117",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:01:33.990",
         "end": "00:01:35.790",
         "text": "Roger, to 10,000, now heading 100.",
         "speaker": "SHR9117",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [x] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:02:28.460",
         "end": "00:02:33.410",
         "text": "Shamrock 9117, contact approach one one eight point two five.",
         "speaker": "ID-1",
-        "listener": "SHR9117"
+        "listener": "SHR9117",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:02:33.760",
         "end": "00:02:35.900",
         "text": "Shamrock 9117, one one eight point two five.",
         "speaker": "SHR9117",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [x] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:02:36.950",
         "end": "00:02:40.180",
         "text": "Boston departure, Nera 3737 is coming up on one thousand.",
         "speaker": "NERA3737",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [x] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:02:40.430",
         "end": "00:02:44.810",
         "text": "Nera 3737, Boston departure, radar contact, climb and maintain 4,000.",
         "speaker": "ID-1",
-        "listener": "NERA3737"
+        "listener": "NERA3737",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [x] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:02:45.410",
         "end": "00:02:47.890",
         "text": "Nera 3737, up to 4000.",
         "speaker": "NERA3737",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [x] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [x] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:03:53.050",
         "end": "00:03:57.180",
         "text": "Departure, Pan Am 793 is out of six hundred for three thousand.",
         "speaker": "PXX793",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [x] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [x] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:03:57.390",
         "end": "00:04:00.040",
         "text": "Pan Am 793, Boston departure, radar contact.",
         "speaker": "ID-1",
-        "listener": "PXX793"
+        "listener": "PXX793",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [x] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:04:00.660",
         "end": "00:04:01.340",
         "text": "Pan Am 793.",
         "speaker": "PXX793",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [x] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:04:22.010",
         "end": "00:04:25.390",
         "text": "Nera 3737, fly heading 150.",
         "speaker": "ID-1",
-        "listener": "NERA3737"
+        "listener": "NERA3737",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:04:26.280",
         "end": "00:04:28.340",
         "text": "One five zero, Nera 3737.",
         "speaker": "NERA3737",
-        "listener": "ID-1"
+        "listener": "ID-1",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [x] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     },
     {
         "start": "00:04:49.820",
         "end": "00:04:52.180",
         "text": "Pan Am 793, climb and maintain 4,000.",
         "speaker": "ID-1",
-        "listener": "PXX793"
+        "listener": "PXX793",
+        "note": "- Intention:\n        - [] \"PSC\": Pilot starts contact to ATC.\n        - [] \"PSR\": Pilot starts contact to ATC with reported info.\n        - [] \"PRP\": Pilot reports information.\n        - [] \"PRQ\": Pilot issues requests.\n        - [] \"PRB\": Pilot readback.\n        - [] \"PAC\": Pilot acknowledge.\n        - [] \"ASC\": ATC starts contact to pilot.\n        - [x] \"AGI\": ATC gives instruction.\n        - [] \"ACR\": ATC corrects pilot's readback.\n        - [] \"END\": Either party signaling the end of exchange."
     }
 ]

@@ -20,6 +20,9 @@ def parse_log_file(file_path):
 
         # Extract PUNE line
         pune_match = re.search(r"PUNE:\s*(.*?)(?:\r?\n)", block_content)
+        # Extract NOTE section
+        note_match = re.search(r"NOTE:(.*?)(?=\Z|\r?\n\r?\n)", block_content, re.DOTALL)
+        
         if pune_match:
             pune_text = pune_match.group(1).strip()
 
@@ -34,7 +37,12 @@ def parse_log_file(file_path):
                 "speaker": speaker,
                 "listener": listener,
             }
-
+            
+            # Add NOTE section if found
+            if note_match:
+                note_text = note_match.group(1).strip()
+                entry["note"] = note_text
+                
             entries.append(entry)
 
     return entries
@@ -60,7 +68,7 @@ def main():
     with open("log.json", "w") as outfile:
         json.dump(entries, outfile, indent=4)
 
-    print(f"Extracted {len(entries)} entries to output.json")
+    print(f"Extracted {len(entries)} entries to log.json")
 
 
 if __name__ == "__main__":
